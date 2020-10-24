@@ -6,7 +6,7 @@ updated_date: 2020-10-23T21:41:01.598Z
 description: Monitor your internet with python and visualizations using
   matplotlib on pythonprogramming.org
 published: true
-image: " https://i.ibb.co/TgcDyYk/carbon-7-1.png"
+image: https://i.ibb.co/TgcDyYk/carbon-7-1.png
 tags:
   - python
   - machinelearning
