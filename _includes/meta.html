@@ -19,6 +19,10 @@
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
 
+    {% if page.image %}
+    <meta name="twitter:image" content="{{ page.image }}" />
+    {% endif %}
+
     {% if page.canonical_url %}
     <link rel="canonical" href="{{ page.canonical_url }}">
     {% endif %}
