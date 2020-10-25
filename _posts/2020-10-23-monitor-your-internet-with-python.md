@@ -203,6 +203,10 @@ This is a short form of a project I recently finished which contains automated u
 
 {% include lazyload.html image_src="https://i.giphy.com/media/l0IygsTd0XPi9Q1cA/source.gif" image_alt="showing a graph to a brick wall" image_title="showing a graph to a brick wall" %}
 
+Here is part II of the post where we send a tweet to the ISP telling them about our internet speed.
+
+{% include linked_post.html url="sending-tweet-when-your-internet-speed-goes-down" %}
+
 If you have any questions about this tutorial please don't hesitate to reach out to me.
 
 [@jsphwllng](https://twitter.com/jsphWllng)
