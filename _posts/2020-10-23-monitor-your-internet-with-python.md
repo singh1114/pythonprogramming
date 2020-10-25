@@ -78,7 +78,7 @@ while True:
     time.sleep(60)
 ```
 
-**Note:** Added a note due to [feedback](https://www.reddit.com/r/Python/comments/jhh8oa/monitor_your_internet_with_python/) received by [an awesome Reddit user.](https://www.reddit.com/user/squidwardtentickles/)
+**Note:** Added a delay due to [feedback](https://www.reddit.com/r/Python/comments/jhh8oa/monitor_your_internet_with_python/) received by [an awesome Reddit user.](https://www.reddit.com/user/squidwardtentickles/)
 
 which yields to:
 
