@@ -130,7 +130,7 @@ def tweet_scheduler():
         raise NotImplementedError('Set environment variables correctly')
 ```
 
-The explanation of how it works can be a separate post of itself but with this post my objective is to allow everyone to try it out and see how it works.
+The explanation of how it works can be a separate post of itself but with this post, my objective is to allow everyone to try it out and see how it works.
 
 ## How to install and set it up for yourself
 
@@ -171,9 +171,9 @@ python manage.py createsuperuser
 
 ### Export the creds
 
-Now if you were following the tutorial line by line and if you have read the tweepy post that I shared earlier, you should have your Twitter API key and other creds.
+Now if you were following the tutorial correctly and if you have read the `tweepy` post that I shared earlier, you should have your Twitter API key and other creds handy.
 
-If you haven't read it already, you can visit [https://developer.twitter.com/](https://developer.twitter.com/) and create an app to get all the credentials or you can read [this post](https://pythonprogramming.org/how-to-create-a-webscraping-twitter-bot-in-python/) if you are facing problems to figure it out. 
+If you haven't read it already, you can visit [https://developer.twitter.com/](https://developer.twitter.com/) and create an app to get all the credentials or you can read [this post](https://pythonprogramming.org/how-to-create-a-webscraping-twitter-bot-in-python/) if you are facing problems to figure it out. If you are still facing any issue, feel free to ping me anywhere.
 
 Once you have them you have to export them to your shell,
 
