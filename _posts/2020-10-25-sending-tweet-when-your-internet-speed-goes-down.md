@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Sending tweet to your ISP when your internet speed down
+title: Twitting about your low internet speed and tagging your ISP
 date: 2020-10-25T10:15:57.817Z
 updated_date: 2020-10-25T10:15:57.844Z
-description: Sending tweet tagging your ISP when your internet speed goes down
+description: Twitting about your low internet speed and tagging your ISP
   on pythonprogramming.org
 published: true
 image: https://i.ibb.co/dcK7D0y/carbon-9-1.png
