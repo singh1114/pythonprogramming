@@ -175,7 +175,7 @@ There's a lot going on here so let's slowly go through it. The tweet function th
 
 Once you receive the email confirming your API keys be sure to copy them into your function so they function as expected.
 
-Once all of this has been completed we can host our bot on AWS or my personal recommendation [heroku](https://dashboard.heroku.com/). For a good guide on hosting a bot on heroku [please check out this great article](https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39). Now just run your app and let's see what you get!
+Once all of this has been completed we can host our bot on AWS or my personal recommendation [heroku](https://dashboard.heroku.com/). For a good guide on hosting a bot on heroku [please check out this great article](https://pythonprogramming.org/how-to-create-a-webscraping-twitter-bot-in-python/). Now just run your app and let's see what you get!
 
 Read the second part where we send out the tweets and tag our ISP for slow internet speed.
 
