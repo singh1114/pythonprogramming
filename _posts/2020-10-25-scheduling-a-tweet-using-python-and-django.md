@@ -201,3 +201,7 @@ Visit [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to login with `
 If the time has passed and the tweet is still in the `not_sent` state, it will trigger the tweet in the next 5 minutes when the scheduler runs.
 
 That's it for today's post. If you find an issue while trying it out, do let me know in the comments section, I will be happy to help.
+
+## Possible improvements
+
+The current system doesn't allow us to send images in the tweets, we can accommodate for that as well. I don't think that will be hard. Feel free to raise Pull Requests to the repo if you find any issue.
