@@ -102,7 +102,17 @@ These functions do exactly what their name suggests.
 
 Code of `create_image` is taken from [here](https://code-maven.com/create-images-with-python-pil-pillow).
 
-You can configure the `MIN_SPEED` according to what your ISP( in MB/sec) has promised and add their Twitter handle in the `speed_string`.
+You can configure the `MIN_SPEED` according to what your ISP( in MB/sec) promised when you brought the plan and add their Twitter handle in the `speed_string` to tag them.
+
+# Run the script
+
+```shell
+python monitor.py
+```
+
+Run the script to send tweets directly to your Twitter handle whenever speed is below some limit.
+
+Fun, right?
 
 Hope you liked the post. Subscribe to the newsletter so that can get notifications of such posts.
 
