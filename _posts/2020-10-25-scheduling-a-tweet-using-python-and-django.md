@@ -140,6 +140,10 @@ The first step is to clone the repo.
 
 [https://github.com/singh1114/schedule-tweet](https://github.com/singh1114/schedule-tweet)
 
+```shell
+git clone git@github.com:singh1114/schedule-tweet.git
+```
+
 ### Install the requirements
 
 ```shell
