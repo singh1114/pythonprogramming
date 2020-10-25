@@ -9,10 +9,10 @@ published: true
 image: https://i.ibb.co/TgcDyYk/carbon-7-1.png
 tags:
   - python
-  - machinelearning
+  - data-visualization
 categories:
   - python
-  - machinelearning
+  - data-visualization
 author_name: Joseph
 author_username: jsphwllng
 show_ads: false
