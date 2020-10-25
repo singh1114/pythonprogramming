@@ -39,10 +39,14 @@ This is how the image looks.
 
 ## Install pillow and tweepy
 
+Let's see how can we achieve this.
+
 ```shell
 pip install pillow
 pip install tweepy
 ```
+
+Read this post to know more about how to send tweets using `tweepy`.
 
 {% include linked_post.html url="how-to-create-a-webscraping-twitter-bot-in-python" %}
 
@@ -96,7 +100,7 @@ These functions do exactly what their name suggests.
 
 `create_image` creates the image using `pillow` and `tweet_image` tweets an image using `tweepy`.
 
-Code for `create_image` is taken from [here](https://code-maven.com/create-images-with-python-pil-pillow).
+Code of `create_image` is taken from [here](https://code-maven.com/create-images-with-python-pil-pillow).
 
 You can configure the `MIN_SPEED` according to what your ISP( in MB/sec) has promised and add their Twitter handle in the `speed_string`.
 
