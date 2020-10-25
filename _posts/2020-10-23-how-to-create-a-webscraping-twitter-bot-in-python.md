@@ -177,4 +177,8 @@ Once you receive the email confirming your API keys be sure to copy them into yo
 
 Once all of this has been completed we can host our bot on AWS or my personal recommendation [heroku](https://dashboard.heroku.com/). For a good guide on hosting a bot on heroku [please check out this great article](https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39). Now just run your app and let's see what you get!
 
+Read the second part where we send out the tweets and tag our ISP for slow internet speed.
+
+{% include linked_post.html url="sending-tweet-when-your-internet-speed-goes-down" %}
+
 If you have any questions about this article or my bad syntax please message me at [@jsphwllng](https://twitter.com/jsphWllng)
