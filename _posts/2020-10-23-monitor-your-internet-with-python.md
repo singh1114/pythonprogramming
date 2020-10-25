@@ -35,8 +35,6 @@ pip install matplotlib
 pip install speedtest-cli
 ```
 
-Enter full-screen mode Exit full-screen mode
-
 We will also be using a few built in python packages `datetime` and `csv`. CSV (or comma-separated values) are a quick way of storing data. We will be using this to store the information about our internet speeds and then using matplotlib to make this information visual.
 
 ## Gathering data
