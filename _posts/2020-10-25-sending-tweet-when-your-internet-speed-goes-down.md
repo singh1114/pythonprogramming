@@ -25,7 +25,7 @@ A lot of people liked the last post on [pythonprogramming.org](https://pythonpro
 
 {% include linked_post.html url="monitor-your-internet-with-python" %}
 
-Some comments were really great and gave really actionable advice on what else we can do with this.
+Some comments were really great and gave really actionable advice on what else we can do to improve it.
 
 One of which was, `sending tweet tagging your ISP about the lower internet speed`.
 
