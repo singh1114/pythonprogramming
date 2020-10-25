@@ -46,15 +46,15 @@ It is really important to understand what we want to achieve otherwise we end up
 
 So, I divided the projects into small chunks so that it is easily achievable.
 
-* Persistence
+* **Persistence**
 
-We wanted to store things like tweet data, tweeting date and time and keeping the log of what all tweets have already been shared.
+We wanted to store things like `tweet data`, `tweeting date and time` and keeping the log of what all tweets have already been `shared`.
 
-* Scheduling
+* **Scheduling**
 
 I wanted to use something simple to start with. `Consumer-producers` type scheduling was too much for this small project.
 
-* Documentation
+* **Documentation**
 
 Documentation is an essential part of the open-source software if you want others to use what you have built. This post itself is a part of the documentation process.
 
@@ -76,7 +76,7 @@ class TwitterSchedulerModel(models.Model):
 
 ```
 
-For those who don't understand much about Django, this thing says that we want to create a table with 4 things added to it.
+For those who don't understand much about Django, this part of the code says that we want to create a table with 4 things added to it.
 
 * tweet - The tweet itself
 * tweet_at - When does someone want to tweet.
@@ -130,7 +130,7 @@ def tweet_scheduler():
         raise NotImplementedError('Set environment variables correctly')
 ```
 
-The explanation of how it is done can be a separate post of itself. With this post, I just want you to try it out for yourself.
+The explanation of how it works can be a separate post of itself but with this post my objective is to allow everyone to try it out and see how it works.
 
 ## How to install and set it up for yourself
 
