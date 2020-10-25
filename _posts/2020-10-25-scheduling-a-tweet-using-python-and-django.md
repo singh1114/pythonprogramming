@@ -32,7 +32,7 @@ First, I want to clarify that I am not a big fan of all the sh*t that goes on ov
 
 But it doesn't matter if I like it or not, I have to increase the number of followers to sound more genuine and the key ingredient for that is `tweeting regularly`.
 
-But it's hard to find time for tweeting, especially when it doesn't come naturally to you. It's pretty hard to come up with the content and it is even hard to tweet about it.
+But it's hard to find time for tweeting, especially when it doesn't come naturally to you. It's pretty hard to come up with the content itself and it is even hard to tweet about it.
 
 To solve this, I tried to come up with a web app in which I can schedule tweets for say the next seven days or so.
 
