@@ -28,9 +28,9 @@ Each and every article had one common thing in all of them.
 
 **Tweet regularly**
 
-Now I am not a big fan of all the sh*t that goes on over Twitter where a user who started programming 7 days ago acts as an expert and is having a ton of followers but on the other hand, people with a lot of experience and good thought has none.
+First, I want to clarify that I am not a big fan of all the sh*t that goes on over Twitter where a user who started programming 7 days ago acts as an expert and is having a ton of followers and on the other hand, people with a lot of experience and good thought has none.
 
-Doesn't matter if I like it or not, I have to increase the number of followers and a key ingredient for that is `tweeting regularly`.
+But it doesn't matter if I like it or not, I have to increase the number of followers to sound more genuine and the key ingredient for that is `tweeting regularly`.
 
 But I don't have time, right? It's pretty hard to come up with the content and it is even hard to tweet about it.
 
