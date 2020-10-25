@@ -42,7 +42,7 @@ I recently read the post written by my fellow writer on how to send tweets using
 
 ## The problem statement
 
-It is really important to understand what we want to achieve otherwise we end up building some non-useful stuff.
+It is really important to understand what we want to achieve otherwise we end up building something totally different.
 
 So, I divided the projects into small chunks so that it is easily achievable.
 
