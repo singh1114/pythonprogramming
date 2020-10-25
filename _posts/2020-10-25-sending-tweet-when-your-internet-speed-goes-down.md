@@ -27,7 +27,7 @@ A lot of people liked the last post on [pythonprogramming.org](https://pythonpro
 
 Some comments were really great and gave really actionable advice on what else we can do to improve it.
 
-One of which was, `sending tweet tagging your ISP about the lower internet speed`.
+One of which was, `Tweeting about your low internet speed and tagging your ISP`.
 
 This inspired me to quickly write this small Python code which can create an image with some text in it related to internet speed and tweet it tagging your ISP.😂
 
