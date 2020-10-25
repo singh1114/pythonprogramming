@@ -22,7 +22,7 @@ show_telegram_signup: false
 ---
 {% include lazyload.html image_src="https://i.ibb.co/mtLdCSr/carbon-10-2.png" image_alt="Scheduling a tweet using Python and Django" image_title="Scheduling a tweet using Python and Django" %}
 
-I have recently created a [new account on Twitter](https://twitter.com/pythonprogramm9) and looking for ways to increase my followers. To achieve this, I read a lot of articles on how can we increase the number of followers.
+I have recently created a [new account on Twitter](https://twitter.com/pythonprogramm9) and looking for ways to increase my followers. To achieve this, I read a lot of articles on how to get more followers.
 
 Each and every article had one common thing in all of them.
 
