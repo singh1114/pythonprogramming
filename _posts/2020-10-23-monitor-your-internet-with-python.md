@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Monitor your internet speed with python
+title: Monitor your internet with python
 date: 2020-10-23T21:41:01.542Z
 updated_date: 2020-10-23T21:41:01.598Z
 description: Monitor your internet with python and visualizations using
