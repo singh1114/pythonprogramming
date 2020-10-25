@@ -3,6 +3,8 @@ layout: post
 title: Scheduling a tweet using Python and Django
 date: 2020-10-25T17:37:26.355Z
 updated_date: 2020-10-25T17:37:26.410Z
+description: Scheduling a tweet using Python and Django, using tweet model,
+  tweepy and many other things.
 published: true
 image: https://i.ibb.co/m6zzWm4/carbon-10-1.png
 tags:
