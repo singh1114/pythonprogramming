@@ -173,7 +173,7 @@ print(times, "\n", download, "\n", upload)
     [38.66, 38.79, 38.79, 31.99, 38.96]
 ```
 
-So now we are parsing our data! The next(csvfile) essentially skipss the row of headers (that were for our benefit only, not python's). Now we come on to using matplotlib which I am by no standards and expert on. [Their documentation](https://matplotlib.org) is _extensive_.
+So now we are parsing our data! The `next(csvfile)` essentially skips the row of headers (that were for our benefit only, not python's). Now we come on to using matplotlib which I am by no standards and expert on. [Their documentation](https://matplotlib.org) is _extensive_.
 
 ```python
 plt.figure(30, 30)
