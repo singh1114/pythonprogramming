@@ -198,6 +198,6 @@ Visit [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to login with `
 
 {% include lazyload.html image_src="https://i.ibb.co/Hhmyk1b/Screenshot-2020-10-26-at-1-16-28-AM.png" image_alt="Scheduling a tweet in django admin" image_title="Scheduling a tweet in django admin" %}
 
-If the time has passed and the tweet is still in the `not_sent` state, this will trigger the tweet in the next 5 minutes when the scheduler runs.
+If the time has passed and the tweet is still in the `not_sent` state, it will trigger the tweet in the next 5 minutes when the scheduler runs.
 
 That's it for today's post. If you find an issue while trying it out, do let me know in the comments section, I will be happy to help.
