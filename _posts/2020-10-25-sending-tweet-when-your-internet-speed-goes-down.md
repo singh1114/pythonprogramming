@@ -29,13 +29,13 @@ Some comments were really great and gave really actionable advice on what else w
 
 One of which was, `sending tweet tagging your ISP about the lower internet speed`.
 
-This inspired me to quickly write this small method which can create an image using `pillow` library with some text in it related to internet speed.
+This inspired me to quickly write this small Python code which can create an image with some text in it related to internet speed and tweet it tagging your ISP.😂
 
 This is how the image looks.
 
 {% include lazyload.html image_src="https://i.ibb.co/crkc9TJ/pil-text-font.png" image_alt="Monitor your internet with python" image_title="Monitor your internet with python" %}
 
-Read more about the [tweet here](https://twitter.com/ranvirsingh1114/status/1320311041046163456?s=20).
+[Here](https://twitter.com/ranvirsingh1114/status/1320311041046163456?s=20) is the tweet.
 
 ## Install pillow and tweepy
 
