@@ -68,14 +68,19 @@ So by creating a new instance of `speedtest` as `s` and testing the upload and d
 ```python
 import speedtest
 import datetime
+import time
 s = speedtest.Speedtest()
 
 while True:
-    time = datetime.datetime.now().strftime("%H:%M:%S")
+    time_now = datetime.datetime.now().strftime("%H:%M:%S")
     downspeed = round((round(s.download()) / 1048576), 2)
     upspeed = round((round(s.upload()) / 1048576), 2)
-    print(f"time: {time}, downspeed: {downspeed} Mb/s, upspeed: {upspeed} Mb/s")
+    print(f"time: {time_now}, downspeed: {downspeed} Mb/s, upspeed: {upspeed} Mb/s")
+    # 60 seconds sleep
+    time.sleep(60)
 ```
+
+**Note:** Added a note due to [feedback](https://www.reddit.com/r/Python/comments/jhh8oa/monitor_your_internet_with_python/) received by [an awesome Reddit user.](https://www.reddit.com/user/squidwardtentickles/)
 
 which yields to:
 
@@ -104,6 +109,7 @@ In order to record into a csv file in python we need to import the CSV package a
 import speedtest
 import datetime
 import csv
+import time
 
 s = speedtest.Speedtest()
 
@@ -111,14 +117,16 @@ with open('test.csv', mode='w') as speedcsv:
     csv_writer = csv.DictWriter(speedcsv, fieldnames=['time', 'downspeed', 'upspeed'])
     csv_writer.writeheader()
     while True:
-        time = datetime.datetime.now().strftime("%H:%M:%S")
+        time_now = datetime.datetime.now().strftime("%H:%M:%S")
         downspeed = round((round(s.download()) / 1048576), 2)
         upspeed = round((round(s.upload()) / 1048576), 2)
         csv_writer.writerow({
-            'time': time,
+            'time': time_now,
             'downspeed': downspeed,
             "upspeed": upspeed
         })
+        # 60 seconds sleep
+        time.sleep(60)
 ```
 
 So while you let this code run for 4-5 minutes we can discuss what is going on. Line 7 `with open` essentiallly creates a csv file with the name `test.csv` with the headers `name`, `downspeed` and `upspeed` and writes them into the csv. Then the loop begins and every time a test is performed by speedtest it writes a new row into the csv with the time, download speed and upload speed we specified before. So let's go and look at that now.
