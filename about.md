@@ -19,6 +19,7 @@ Follow us on Twitter: [https://twitter.com/pythonprogramm9](https://twitter.com/
 This blog is hosted on GitHub pages and is [open-source](https://github.com/singh1114/pythonprogramming).
 
 We are using the [Best GH-pages theme](https://github.com/singh1114/best).
+
 ---
 
 ### Our Authors
