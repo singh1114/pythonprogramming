@@ -11,7 +11,10 @@ layout: default
     {% if page.author_username and page.author_username != blank and page.author_name and page.author_username != blank %}
       <a href="{{ site.baseurl }}/{{ page.author_username }}">{{ page.author_name }}</a> &middot; {% include read_time.html content=page.content %}
     {% else %}
-    {% include read_time.html content=page.content %}
+      {% include read_time.html content=page.content %}
+    {% endif %}
+    {% if page.reddit_thread %}
+      <a href="{{ page.reddit_thread }}">Discuss on Reddit</a>
     {% endif %}
   </div>
 

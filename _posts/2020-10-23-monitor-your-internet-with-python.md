@@ -17,6 +17,7 @@ author_name: Joseph
 author_username: jsphwllng
 show_ads: false
 show_telegram_signup: true
+reddit_thread: https://www.reddit.com/r/Python/comments/jhh8oa/monitor_your_internet_with_python/
 ---
 {% include lazyload.html image_src="https://i.ibb.co/TgcDyYk/carbon-7-2.png" image_alt="Monitor your internet with python" image_title="Monitor your internet with python" %}
 
