@@ -9,9 +9,9 @@ layout: default
 
   <div class="author" style="font-size: 0.8em;">
     {% if page.author_username and page.author_username != blank and page.author_name and page.author_username != blank %}
-      <a href="{{ site.baseurl }}/{{ page.author_username }}">{{ page.author_name }}</a> &middot; {% include read_time.html content=page.content %}
+      <a href="{{ site.baseurl }}/{{ page.author_username }}">{{ page.author_name }}</a> &middot; {% include read_time.html content=page.content %} &middot;
     {% else %}
-      {% include read_time.html content=page.content %}
+      {% include read_time.html content=page.content %} &middot;
     {% endif %}
     {% if page.reddit_thread %}
       <a href="{{ page.reddit_thread }}">Discuss on Reddit</a>
