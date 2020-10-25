@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sending tweet when your internet speed goes down
+title: Sending tweet to your ISP when your internet speed down
 date: 2020-10-25T10:15:57.817Z
 updated_date: 2020-10-25T10:15:57.844Z
 description: Sending tweet tagging your ISP when your internet speed goes down
