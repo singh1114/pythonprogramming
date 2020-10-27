@@ -15,7 +15,7 @@ categories:
 author_name: Ranvir Singh
 author_username: ranvir_xyz
 show_ads: false
-show_telegram_signup: false
+show_telegram_signup: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/Z6mw1sp/carbon-2.png" image_alt="Scheduling your tweets using CSV with Python" image_title="Scheduling your tweets using CSV with Python" %}
 
