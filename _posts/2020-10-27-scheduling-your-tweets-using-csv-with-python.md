@@ -27,13 +27,11 @@ Each and every article had one common thing in all of them.
 
 First, I want to clarify that I am not a big fan of all the sh*t that goes on over Twitter where a user who started programming 7 days ago acts as an expert and is having a ton of followers and on the other hand, people with a lot of experience has none.
 
-But it doesn't matter if I like it or not, I have to increase the number of followers to sound more genuine and the key ingredient for that is `tweeting regularly`.
+It doesn't matter if I like it or not, I have to increase the number of followers to sound more genuine and the key ingredient for that is `tweeting regularly`.
 
 But it's hard to find time for tweeting, especially when it doesn't come naturally to you. It's pretty hard to come up with the content itself and it is even hard to tweet about it.
 
-To solve this, I tried to come up with a web app in which I can schedule tweets for say the next seven days or so.
-
-Now I have written a Django app that can do the same thing, Basically, you add things in the database and it can read everything from there. So, if you know Django, you can head over to the other post and follow that instead.
+Now I have written a Django app that can do the same thing. Basically, you add things in the database and it can read everything from there. So, if you know Django, you can head over to the other post and follow that instead.
 
 {% include linked_post.html url="scheduling-a-tweet-using-python-and-django" %}
 
