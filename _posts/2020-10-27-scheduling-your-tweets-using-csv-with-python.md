@@ -19,7 +19,7 @@ show_telegram_signup: false
 ---
 {% include lazyload.html image_src="https://i.ibb.co/Z6mw1sp/carbon-2.png" image_alt="Scheduling your tweets using CSV with Python" image_title="Scheduling your tweets using CSV with Python" %}
 
-I have recently created a [new account on Twitter](https://twitter.com/pythonprogramm9)(please follow if you like what I post) and looking for ways to increase my followers. To achieve this, I read a lot of articles on how to get more followers.
+I have recently created a [new account on Twitter](https://twitter.com/pythonprogramm9)( please follow if you like what I post) and looking for ways to increase my followers. To achieve this, I read a lot of articles on how to get more followers.
 
 Each and every article had one common thing in all of them.
 
