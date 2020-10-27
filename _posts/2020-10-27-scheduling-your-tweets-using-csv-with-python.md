@@ -31,7 +31,7 @@ It doesn't matter if I like it or not, I have to increase the number of follower
 
 But it's hard to find time for tweeting, especially when it doesn't come naturally to you. It's pretty hard to come up with the content itself and it is even hard to tweet about it.
 
-Now I have written a Django app that can do the same thing. Basically, you add tweet's data in the database and the script can read everything from there and send the tweets automatically. So, if you know Django, you can head over to the other post and follow that instead. This post is for the people who don't want any complexity.
+Now I have written a Django app that can do the same thing. Basically, we add tweet's data in the database and the script can read everything from there and send the tweets automatically. So, if you know Django, you can head over to the other post and follow that instead. This post is for the people who don't want any complexity.
 
 {% include linked_post.html url="scheduling-a-tweet-using-python-and-django" %}
 
@@ -173,7 +173,7 @@ One thing that we have to keep in mind is the timezone being used. Most probably
 
 ## Send the tweets
 
-You can start the script using the command
+We can start the script using the command
 
 ```shell
 python csv_tweet.py
