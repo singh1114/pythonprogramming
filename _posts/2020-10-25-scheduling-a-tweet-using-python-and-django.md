@@ -30,7 +30,7 @@ Each and every article had one common thing in all of them.
 
 First, I want to clarify that I am not a big fan of all the sh*t that goes on over Twitter where a user who started programming 7 days ago acts as an expert and is having a ton of followers and on the other hand, people with a lot of experience has none.
 
-But it doesn't matter if I like it or not, I have to increase the number of followers to sound more genuine and the key ingredient for that is `tweeting regularly`.
+It doesn't matter if I like it or not, I have to increase the number of followers to sound more genuine and the key ingredient for that is `tweeting regularly`.
 
 But it's hard to find time for tweeting, especially when it doesn't come naturally to you. It's pretty hard to come up with the content itself and it is even hard to tweet about it.
 
