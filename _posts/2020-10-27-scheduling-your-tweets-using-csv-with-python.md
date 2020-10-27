@@ -31,7 +31,7 @@ It doesn't matter if I like it or not, I have to increase the number of follower
 
 But it's hard to find time for tweeting, especially when it doesn't come naturally to you. It's pretty hard to come up with the content itself and it is even hard to tweet about it.
 
-Now I have written a Django app that can do the same thing. Basically, you add tweet's data in the database and it can read everything from there. So, if you know Django, you can head over to the other post and follow that instead.
+Now I have written a Django app that can do the same thing. Basically, you add tweet's data in the database and the script can read everything from there and send the tweets automatically. So, if you know Django, you can head over to the other post and follow that instead. This post is for the people who don't want any complexity.
 
 {% include linked_post.html url="scheduling-a-tweet-using-python-and-django" %}
 
@@ -48,7 +48,7 @@ pip install pandas
 pip install apscheduler
 ```
 
-We use `arrow` to do some date and time-based conversions, `tweepy` to handle tweeting, pandas for working on `CSV`s and `apscheduler` to schedule the process.
+We use `arrow` to do some date-time based conversions, `tweepy` to handle tweeting, pandas for working on `CSV`s and `apscheduler` to schedule the process.
 
 We are using Python 3.8 while running the code in the post. 
 
@@ -143,7 +143,7 @@ if __name__ == '__main__':
     scheduler.start()
 ```
 
-Wow, that's a lot of things happening, let's break it down a little and go over what each function does.
+Wow, that's a lot of code, let's break it down a little and go over what each function does.
 
 ```shell
 tweet_scheduler is the entry function, all it does is check if the Twitter creds are present in the environment variables or not.
@@ -192,3 +192,11 @@ tail -f SchedulerLog.txt
 One of the further things that we can do with this is running this as a web app, but that is something that we have [already done](https://pythonprogramming.org/scheduling-a-tweet-using-python-and-django/).
 
 Not sure what else can we do with this. Let me know if you have something in mind.
+
+## How I am using it?
+
+I get a notification when someone posts something related to Python on HackerNews. I create a new entry in this CSV with the Twitter handle of the user who posted with 2 hrs gap of the last tweet time and the text is tweeted after that time is passed.
+
+Let me know if someone needs this script.
+
+Subscribe to get more such posts delivered to your inbox.
