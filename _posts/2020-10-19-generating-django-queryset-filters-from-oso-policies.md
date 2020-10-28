@@ -16,7 +16,6 @@ categories:
 author_name: osohq
 author_username: osohq
 show_ads: false
-show_telegram_signup: true
 canonical_url: https://www.osohq.com/post/django-list-view
 ---
 {% include lazyload.html image_src="https://i.ibb.co/Vv2sQx3/i4tiKpnL.png" image_alt="Generating Django QuerySet filters from oso policies" image_title="Generating Django QuerySet filters from oso policies" %}
@@ -87,9 +86,9 @@ This policy allows anyone to view public posts but only view their own private p
 
 ```sql
     SELECT *
-    FROM   "social_post" 
-    WHERE  (("social_post"."access_level" = 1 
-                 AND "social_post"."created_by_id" = 1) 
+    FROM   "social_post"
+    WHERE  (("social_post"."access_level" = 1
+                 AND "social_post"."created_by_id" = 1)
             OR "social_post"."access_level" = 0);
 ```
 
@@ -102,7 +101,7 @@ Since the full power of Polar rules is being used to generate these constraints,
 
 ```sql
     SELECT *
-    FROM   "social_post" 
+    FROM   "social_post"
     WHERE  "social_post"."access_level" = 0;
 ```
 

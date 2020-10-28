@@ -16,7 +16,6 @@ categories:
 author_name: Joseph
 author_username: jsphwllng
 show_ads: false
-show_telegram_signup: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/BcDGgCJ/carbon-8-2.png" image_alt="How to create a webscraping twitter bot in Python" image_title="How to create a webscraping twitter bot in Python" %}
 

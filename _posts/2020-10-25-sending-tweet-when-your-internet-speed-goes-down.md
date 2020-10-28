@@ -15,7 +15,6 @@ categories:
   - imageprocessing
 author_username: ""
 show_ads: false
-show_telegram_signup: true
 skip_toc: false
 include_mathjax: false
 ---
