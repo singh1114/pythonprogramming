@@ -16,7 +16,7 @@ We will create an author page for you as well where you can share further detail
 
 #### 2. Readers
 
-* We get 10K hits per month to our blog monthly.
+* We get 10K hits to our blog monthly.
 
 #### 3. Add your own links
 
