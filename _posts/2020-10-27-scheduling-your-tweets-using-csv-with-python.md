@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scheduling your tweets using CSV with Python
+title: Sending and scheduling your tweets from CSV using Python
 date: 2020-10-27T18:01:29.985Z
 updated_date: 2020-10-27T18:01:30.111Z
 description: Scheduling your tweets using CSV with Python, Pandas, tweepy and arrow
