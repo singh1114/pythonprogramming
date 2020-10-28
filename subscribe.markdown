@@ -29,9 +29,3 @@ date: 2019-12-10 06:27:00 Z
     </div>
 </form>
 </div>
-
-<!--End mc_embed_signup-->
-
-{% include telegram.html %}
-
-<!--End mc_embed_signup-->
