@@ -17,7 +17,7 @@
         {% for post in site.posts %}
           {% assign post_slug = post.url | replace: "/", "" %}
           {% if post_slug == include.next_slug %}
-            <strong>Previous Tutorial:</strong>
+            <strong id="series_pointer_heading">Next Tutorial:</strong>
             <a href="{{ site.baseurl }}{{ post_slug }}"><strong>{{ post.series_page_title }}</strong></a>
           {% endif %}
         {% endfor %}
@@ -54,13 +54,12 @@
         color: white;
       }
 
-      .next_post strong {
+      .next_post #series_pointer_heading {
         color: #c8c3d0;
         font-size: 12.5px;
       }
 
-      .prev_post strong {
-        color: #c8c3d0;
+      .prev_post #series_pointer_heading {
         font-size: 12.5px;
       }
 
