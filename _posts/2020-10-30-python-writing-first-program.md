@@ -10,6 +10,7 @@ series_unique_code: python_series_beginners
 series_part: "3"
 series_page_title: Writing First Program
 series_title: Python Programming
+previous_slug: python-basic-programming-concepts
 skip_from_listing: true
 ---
 [![Amazon Great Indian Mobile Festival](https://i2.wp.com/mytechdevice.com/wp-content/uploads/2020/10/amazon-mobile.jpg?resize=640%2C221&ssl=1)
