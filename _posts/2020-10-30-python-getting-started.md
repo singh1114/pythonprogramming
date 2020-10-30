@@ -20,7 +20,6 @@ series_part: "1"
 series_page_title: Python - Getting Started
 series_title: Python Programming
 next_slug: python-basic-programming-concepts
-previous_slug: python-basic-programming-concepts
 skip_from_listing: true
 ---
 ## Introduction
