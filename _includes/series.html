@@ -4,7 +4,7 @@
   {% else %}
   <h5><strong>{{ page.title }}</strong></h5>
   {% endif %}
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
   {% if post.series_unique_code == page.series_unique_code %}
       {% if post.url == page.url %}
         <a href="{{ post.url }}"
