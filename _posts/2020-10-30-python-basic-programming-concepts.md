@@ -11,6 +11,7 @@ series_part: "2"
 series_page_title: Basic Programming Concepts
 series_title: Python Programming
 previous_slug: python-getting-started
+next_slug: python-writing-first-program
 skip_from_listing: true
 ---
 [![Amazon Great Indian Mobile Festival](https://i2.wp.com/mytechdevice.com/wp-content/uploads/2020/10/amazon-mobile.jpg?resize=640%2C221&ssl=1)
