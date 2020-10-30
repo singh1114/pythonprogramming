@@ -1,8 +1,9 @@
 <div class="left-bar">
   {% if page.series_title %}
     <h5><strong>{{ page.series_title }}</strong></h5><hr>
-  {% endif %}
+  {% else %}
   <h5><strong>{{ page.title }}</strong></h5>
+  {% endif %}
 {% for post in site.posts %}
   {% if post.series_unique_code == page.series_unique_code %}
       {% if post.url == page.url %}

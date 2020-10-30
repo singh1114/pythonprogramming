@@ -22,7 +22,7 @@ skip_from_listing: true
 ---
 ## Introduction
 
-Python is a widely-used programming language nowadays for a wide magnitude of tasks like general programming, web development, data analysis and machine learning. 
+Python is a widely-used programming language nowadays for a wide magnitude of tasks like general programming, web development, data analysis and machine learning.
 
 Thanks to a variety of features, most developers are now moving to python language for their development work. Also, most IT professionals are intended to Learn Python Language.
 
