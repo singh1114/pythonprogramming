@@ -1,4 +1,4 @@
-<div class="series-next">
+<div class="series_next">
   {% if include.previous_slug or include.next_post %}
     <hr>
     {% if include.previous_slug %}
@@ -6,7 +6,7 @@
         {% for post in site.posts %}
           {% assign post_slug = post.url | replace: "/", "" %}
           {% if post_slug == include.previous_slug %}
-            <a href="{{ site.baseurl }}{{ post_slug }}">{{ post.title }}</a>
+            <a href="{{ site.baseurl }}{{ post_slug }}"><strong>{{ post.title }}</strong></a>
           {% endif %}
         {% endfor %}
       </div>
@@ -16,7 +16,7 @@
         {% for post in site.posts %}
           {% assign post_slug = post.url | replace: "/", "" %}
           {% if post_slug == include.next_slug %}
-            <a href="{{ site.baseurl }}{{ post_slug }}">{{ post.title }}</a>
+            <a href="{{ site.baseurl }}{{ post_slug }}"><strong>{{ post.title }}</strong></a>
           {% endif %}
         {% endfor %}
       </div>
@@ -24,3 +24,29 @@
     <hr>
   {% endif %}
 </div>
+
+<style>
+  #series_next {
+    height: auto;
+  }
+
+  #prev_post {
+    border: 1px solid #ccc;
+    padding: 1.5em 2em;
+    background: rgba(125,231,123,.21);
+    border-radius: 0.3em;
+    float: left;
+    font-size: 14.5px;
+  }
+  #next_post {
+    float: right;
+    border: 1px solid #ccc;
+    padding: 1.5em 2em;
+    background: #1e1c3f;
+    border-radius: 0.5em;
+    font-size: 14.5px;
+  }
+  #next_post a {
+    color: white;
+  }
+</style>
