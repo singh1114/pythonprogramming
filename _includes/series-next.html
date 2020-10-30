@@ -1,0 +1,22 @@
+<div class="series-next">
+  {% if include.previous_slug %}
+    <div class="prev_post">
+      {% for post in site.posts %}
+        {% assign post_slug = post.url | replace: "/", "" %}
+        {% if post_slug == include.previous_slug %}
+          <a href="{{ site.baseurl }}{{ post_slug }}">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if include.next_slug %}
+    <div class="next_post">
+      {% for post in site.posts %}
+        {% assign post_slug = post.url | replace: "/", "" %}
+        {% if post_slug == include.next_slug %}
+          <a href="{{ site.baseurl }}{{ post_slug }}">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

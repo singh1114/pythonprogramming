@@ -35,6 +35,7 @@ collections:
       - {label: "Series Part number", name: "series_part", widget: "string", required: false}
       - {label: "Series Page title", name: "series_page_title", widget: "string", required: false}
       - {label: "Series Title", name: "series_title", widget: "string", required: false}
+      - {label: "Skip from listing", name: "skip_from_listing", widget: "boolean", required: false}
   - name: "thoughts"
     label: "Archive" # Used in the UI
     folder: "_thoughts" # The path to the folder where the documents are stored
