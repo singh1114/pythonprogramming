@@ -111,7 +111,7 @@ print("I am writing Python program", "Python is easy", sep="....")
 In the output, the two string arguments will be separated by `....` because we mentioned separator as 4 dots.
 
 ```python
-print("I am writing Python program","Python is easy",sep="#")
+print("I am writing Python program","Python is easy", sep="#")
 ```
 
 This will separate the strings by `#`.
@@ -133,8 +133,10 @@ Hence the second print statement started after!!!!. So technically here you chan
 
 We can also use a combination of both `sep` and `end` in print statement like below:
 
-print("Python","learning",end="\*",sep="\_")  
-print("Love","Python",sep="#")
+```python
+print("Python", "learning", end="\*", sep="\_")  
+print("Love", "Python", sep="#")
+```
 
 In this case, arguments of the first print will be separated by `\_`. Then first print will end with `\*`. Then the strings of second print will be separated by `#`.  
 
@@ -153,4 +155,4 @@ for a in range(0, 100):
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99
 ```
 
-Don't worry if you don't understand loops yet. We will go through them in later posts.
+Don't worry if it doesn't make sense to you, We will go through them in later posts.
