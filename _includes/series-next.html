@@ -6,7 +6,7 @@
         {% for post in site.posts %}
           {% assign post_slug = post.url | replace: "/", "" %}
           {% if post_slug == include.previous_slug %}
-            <strong>Previous Tutorial:</strong><br>
+            <strong  id="series_pointer_heading">Previous Tutorial:</strong><br>
             <a href="{{ site.baseurl }}{{ post_slug }}"><strong>{{ post.series_page_title }}</strong></a>
           {% endif %}
         {% endfor %}
