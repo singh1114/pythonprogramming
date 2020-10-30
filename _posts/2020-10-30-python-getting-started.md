@@ -3,6 +3,7 @@ layout: post
 title: Python - Getting Started
 date: 2020-10-30T08:44:42.427Z
 updated_date: 2020-10-30T08:44:42.451Z
+description: Python getting started tutorial for beginners on pythonprogramming.org
 published: true
 tags:
   - python
