@@ -22,7 +22,7 @@ previous_slug: python-getting-started
 next_slug: python-writing-first-program
 skip_from_listing: true
 ---
-Today we will talk about some basic Python programming concepts.
+In this post, we will talk about some basic Python programming concepts.
 
 Now it’s time to put our hands-on actual Python programs. However, before we actually dive into programs, let’s just brush up on some basic concepts generic to any programming language.
 
