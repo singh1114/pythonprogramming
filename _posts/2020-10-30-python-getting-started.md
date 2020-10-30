@@ -17,7 +17,7 @@ show_ads: false
 show_telegram_signup: false
 series_unique_code: python_series_beginners
 series_part: "1"
-series_page_title: Python - Getting Started
+series_page_title: Getting Started
 series_title: Python Programming
 next_slug: python-basic-programming-concepts
 skip_from_listing: true
