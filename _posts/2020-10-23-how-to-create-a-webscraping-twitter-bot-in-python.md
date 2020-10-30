@@ -178,6 +178,4 @@ Once all of this has been completed we can host our bot on AWS or my personal re
 
 Read the second part where we send out the tweets and tag our ISP for slow internet speed.
 
-{% include linked_post.html url="sending-tweet-when-your-internet-speed-goes-down" %}
-
 If you have any questions about this article or my bad syntax please message me at [@jsphwllng](https://twitter.com/jsphWllng)
