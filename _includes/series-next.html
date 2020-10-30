@@ -23,31 +23,39 @@
     {% endif %}
     <div style="clear: both;"></div>
     <hr>
+    <style>
+      .series_next {
+        height: auto;
+      }
+
+      .prev_post {
+        border: 1px solid #ccc;
+        padding: 1.5em 2em;
+        background: rgba(125,231,123,.21);
+        border-radius: 0.3em;
+        float: left;
+        font-size: 14.5px;
+      }
+      .next_post {
+        float: right;
+        border: 1px solid #ccc;
+        padding: 1.5em 2em;
+        background: #1e1c3f;
+        border-radius: 0.5em;
+        font-size: 14.5px;
+      }
+      .next_post a {
+        color: white;
+      }
+      @media (max-width: 750px) {
+        .prev_post {
+          width: 100%;
+          margin-bottom: 0.5em;
+        }
+        .next_post {
+          width: 100%;
+        }
+      }
+    </style>
   {% endif %}
 </div>
-
-<style>
-  .series_next {
-    height: auto;
-  }
-
-  .prev_post {
-    border: 1px solid #ccc;
-    padding: 1.5em 2em;
-    background: rgba(125,231,123,.21);
-    border-radius: 0.3em;
-    float: left;
-    font-size: 14.5px;
-  }
-  .next_post {
-    float: right;
-    border: 1px solid #ccc;
-    padding: 1.5em 2em;
-    background: #1e1c3f;
-    border-radius: 0.5em;
-    font-size: 14.5px;
-  }
-  .next_post a {
-    color: white;
-  }
-</style>
