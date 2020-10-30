@@ -41,7 +41,7 @@ The implementation of Python follows the interpretation model. The code is proce
 
 Due to this reason, Python is very easy to debug things on production as compared to languages like Java.
 
-I have already shared a post to explain more on this point: [https://mytechdevice.com/java-vs-python-compiled-or-interpreted/](https://mytechdevice.com/java-vs-python-compiled-or-interpreted/)
+I have already shared a post to explain more on this point: [Java VS Python](https://mytechdevice.com/java-vs-python-compiled-or-interpreted/)
 
 * Python is very interactive
 
@@ -93,3 +93,18 @@ It is the parent body that manages and produces core Python distribution. Since 
 The Python distribution maintained by PSF is based on C language hence also known as CPython. There is a Python version based on Java which is known as JPython.
 
 The core Python distribution version currently in use is Python 3.0 and above. Earlier version Python 2.0 is compatible is Python 3.0.
+
+## Installation
+
+Unix systems comes with pre-installed Python. So you should be able to run this stuff out of the box.
+
+Just open the shell and type,
+
+```shell
+python -v
+```
+
+to know the Python version.
+
+For Windows you can download the latest version from [here](https://www.python.org/downloads/windows/) install it
+on your machine.
