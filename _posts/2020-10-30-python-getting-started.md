@@ -22,7 +22,7 @@ skip_from_listing: true
 ---
 ## Introduction
 
-Python is a widely-used programming language nowadays for a wide magnitude of tasks like general programming, web development, data analysis and machine learning.
+Python is a widely-used programming language nowadays for a wide magnitude of tasks like general programming, web development, data analysis and machine learning. 
 
 Thanks to a variety of features, most developers are now moving to python language for their development work. Also, most IT professionals are intended to Learn Python Language.
 
@@ -71,6 +71,15 @@ if a == b:
 There is no need to declare variables or their types in advance. We can use it whenever we want. The value of the variable will decide its type.
 
 > Although the newer versions of python allow you to explicitly add types of Python but it's not well used in the community.
+
+```python
+def pythonprogrammingorg(name: str) -> str:
+    return f"{name} writes on pythonprogramming.org"
+
+pythonprogrammingorg("Amit")
+
+Out[2]: 'Amit writes on pythonprogramming.org'
+```
 
 Because of all the above-mentioned features, it's very interesting and easy to Learn Python Language. Many programmers believe that Python should be the first programming language that a Programmer should learn.
 
