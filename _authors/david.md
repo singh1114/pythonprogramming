@@ -22,6 +22,6 @@ Anything requring some creative thinking and problem solving really interests me
 
 Contact
 
-* Giuthub: https://github.com/kelvin0
+* Github: https://github.com/kelvin0
 
 {% include author_posts.html %}
