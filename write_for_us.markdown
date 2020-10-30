@@ -1,6 +1,8 @@
 ---
-title: Write for us
+title: Share your Python Stories
 ---
+
+Have you used Python to build something awesome? We would love to hear and post about it.
 
 If you have something interesting to share with the world, we can help it reach more people by our distribution.
 
