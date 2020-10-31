@@ -50,6 +50,8 @@ import cv2
 
 In the next step, we have to read the image in which we want to detect the face. We also need to convert the image into a grayscale image since it is faster to do operations with grayscale images.
 
+## Convert image to grayscale
+
 ```python
 img = cv2.imread('man.png') # must pass valid file directory
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  #converting the image into grayscale image
@@ -57,10 +59,14 @@ gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  #converting the image into gra
 
 The next step is to initialize the Cascade Classifier. To do this you will need to download the `haarcascade_frontalface_default.xml` file from [here](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml).
 
+## Installing haar cascade
+
 ```python
 # Initializing the haar cascade
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 ```
+
+## Detect faces
 
 The next step is the most important step in this process.
 
@@ -76,6 +82,8 @@ The algorithm requires a moving window to detect objects. `minNeighbors` defines
 
 Remember, all these values are generally used values. You might have to experiment around these values depending upon your need.
 
+## Draw the rectangle around the faces
+
 The next step is to draw a rectangle on the image with the help of the data in `faces`.
 
 ```python
@@ -85,8 +93,11 @@ for x, y, w, h in faces:
 
 Remember that we are drawing the rectangle on the original image and not on the grayscale image.
 
+## Display the image
+
 You are almost done!
-Just display the image:
+
+Just display the image
 
 ```python
 cv2.imshow("ImageWindow", img) # displaying the image
