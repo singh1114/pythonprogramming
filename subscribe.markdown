@@ -16,7 +16,6 @@ date: 2019-12-10 06:27:00 Z
 <form action="https://pythonprogramming.us2.list-manage.com/subscribe/post?u=85324cdc1b9bed72902e27fa0&amp;id=ac8b0f1945" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Subscribe</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
@@ -30,4 +29,6 @@ date: 2019-12-10 06:27:00 Z
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
+<br>
+<div class="indicates-required"><a href="/newsletter">Read old issues</a></div>
 </div>
