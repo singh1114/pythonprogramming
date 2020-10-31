@@ -18,6 +18,9 @@ author_username: aditya
 show_ads: false
 show_telegram_signup: false
 ---
+{% include lazyload.html image_src="https://i.ibb.co/vq05T32/carbon-3-2.png" image_alt="How to record your screen using Python" image_title="How to record your screen using Python" %}
+
+
 In this article, we are going to take a look at how we can record our screen using Python.
 
 Before getting into it, one should first understand what actually a video is. Basically, a video is nothing but a sequence of images (called frames) displayed at a given frequency.
