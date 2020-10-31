@@ -18,7 +18,7 @@ author_name: Aditya Chaudhary👨‍💻
 author_username: aditya
 show_ads: false
 show_telegram_signup: false
-skip_from_listing: true
+skip_from_listing: false
 ---
 To those who don't know what OpenCV is, it is a library for image/video processing, machine learning and computer vision. This tool also supports C++ and Java, but I am a little biased towards python and you all know the reason why.
 
