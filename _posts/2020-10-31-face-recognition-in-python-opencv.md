@@ -20,7 +20,7 @@ In this article, we are going to take a look at how we can detect faces using Py
 
 For those who don't know what OpenCV is and what things it can do, just check out the previous post.
 
-{% include liked_post.html url="opencv-an-awesome-tool-for-computer-vision-in-python" %}
+{% include linked_post.html url="opencv-an-awesome-tool-for-computer-vision-in-python" %}
 
 OpenCV uses Machine Learning algorithms to detect faces. For a dumb machine like Computers, faces are too complex when represented in Computer understandable language.
 
