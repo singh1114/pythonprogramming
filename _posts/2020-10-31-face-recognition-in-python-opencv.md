@@ -55,7 +55,7 @@ img = cv2.imread('man.png') # must pass valid file directory
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  #converting the image into grayscale image
 ```
 
-The next step is to initialize the Cascade Classifier. To do this you will need to download the `haarcascade_frontalface_default.xml` file from [here](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
+The next step is to initialize the Cascade Classifier. To do this you will need to download the `haarcascade_frontalface_default.xml` file from [here](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml).
 
 ```python
 # Initializing the haar cascade
