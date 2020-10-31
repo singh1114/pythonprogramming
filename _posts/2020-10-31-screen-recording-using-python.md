@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Screen Recording using python
+title: How to record your screen using Python 🐍
 date: 2020-10-31T19:53:43.876Z
 updated_date: 2020-10-31T19:53:43.916Z
 published: true
+image: https://i.ibb.co/Xxf2qCn/carbon-3-1.png
 tags:
   - python
   - opencv
