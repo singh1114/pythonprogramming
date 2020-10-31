@@ -96,6 +96,6 @@ cv2.destroyAllWindows()
 
 Let's test the results!
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/7eafo61hjlv3k4jqg1h5.png)
+![Face Recognition using OpenCV](https://dev-to-uploads.s3.amazonaws.com/i/7eafo61hjlv3k4jqg1h5.png)
 
 Congratulations! You made the dumb machine to recognize a face!
