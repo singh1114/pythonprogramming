@@ -17,6 +17,8 @@ author_username: aditya
 show_ads: false
 show_telegram_signup: false
 ---
+{% include lazyload.html image_src="https://i.ibb.co/s9jT79K/carbon-2.png" image_alt="Face Recognition in Python and OpenCV" image_title="Face Recognition in Python and OpenCV" %}
+
 In this article, we are going to take a look at how we can detect faces using Python and OpenCV.
 
 For those who don't know what OpenCV is and what things it can do, just check out the previous post.
