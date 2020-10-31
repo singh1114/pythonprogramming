@@ -80,7 +80,7 @@ The next step is to draw a rectangle on the image with the help of the data in `
 
 ```python
 for x, y, w, h in faces:
-    img = cv2.rectangle(img, (x,y), (x+w,y+h), (255, 255, 250),3)
+    img = cv2.rectangle(img, (x,y), (x+w,y+h), (255, 255, 250), 3)
 ```
 
 Remember that we are drawing the rectangle on the original image and not on the grayscale image.
