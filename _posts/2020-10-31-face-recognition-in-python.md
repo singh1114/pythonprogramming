@@ -18,7 +18,7 @@ show_telegram_signup: false
 ---
 In this article, we are going to take a look at how we can detect faces using Python and OpenCV.
 
-To those who don't know what OpenCV is and what things it can do, just check out the previous post.
+For those who don't know what OpenCV is and what things it can do, just check out the previous post.
 
 {% include liked_post.html url="opencv-an-awesome-tool-for-computer-vision-in-python" %}
 
