@@ -2,7 +2,7 @@
 title: Share your Python Stories
 ---
 
-Have you used Python to build something awesome? We would love to hear and post about it.
+Have you ever used Python to build something awesome? If yes, We would love to hear and post about it.
 
 If you have something interesting to share with the world, we can help it reach more people by our distribution.
 
@@ -14,7 +14,7 @@ We will create an author page for you as well where you can share further detail
 
 #### 1. Subscribers
 
-* We send all our posts to our subscribers weekly. Currently, we have 150+ subscribers which are increasing as you are reading this.
+* We send all our posts to our subscribers weekly. Currently, we have 200+ subscribers which are increasing as you are reading this.
 
 #### 2. Readers
 
