@@ -9,7 +9,6 @@ layout: default
                 <span class="subheading">{{ page.description }}</span>
             {% endif %}
             {% for post in site.posts reversed %}
-                {{page.series_unique_code}} - {{post.series_unique_code}}
                 {% if post.series_unique_code == page.series_unique_code %}
                     <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
                         <a href="{{ site.baseurl }}{{ post.url }}" class="container">
