@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How does the import module work in Python "
+title: How does the import module work in Python 🐍
 date: 2020-10-31T22:44:55.921Z
 updated_date: 2020-10-31T22:44:55.951Z
 published: true
@@ -16,6 +16,8 @@ author_username: sharma_pacific
 show_ads: false
 show_telegram_signup: false
 ---
+{% include lazyload.html image_src="https://i.ibb.co/7kgYkF7/carbon-4-2.png" image_alt="How does the import module work in Python" image_title="How does the import module work in Python" %}
+
 The objective of writing this article is to develop a better understanding of how the `import` statement works and different forms of importing.
 
 In Python, Whenever you want to import a module, you write as following -
