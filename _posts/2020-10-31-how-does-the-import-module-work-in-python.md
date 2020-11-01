@@ -74,8 +74,9 @@ My favroite language is - Python
 
 As I told earlier when the interpreter executes the `import dev` statement, it searches sequentially in specific locations until it finds it - 	
 
-**01**. It looks in the current directory where the input script was run.
-**02**. PYTHONPATH - If `PYTHONPATH` is set, then Python will include the directories in `sys.path` for searching. You can set the: `PYTHONPATH` as follows,
+**1**. It looks in the current directory where the input script was run.
+
+**2**. PYTHONPATH - If `PYTHONPATH` is set, then Python will include the directories in `sys.path` for searching. You can set the: `PYTHONPATH` as follows,
  
 ```shell
 export PYTHONPATH='/some/extra/path'
@@ -90,7 +91,7 @@ o/p - ['', '/usr/lib/python36.zip',
 '/usr/lib/python3.6', '/usr/lib/python3.6/lib-dynload', '/home/prashant/.local/lib/python3.6/site-packages', '/usr/local/lib/python3.6/dist-packages', '/usr/lib/python3/dist-packages']
 ```
 
-**03**. An installation-dependent list of directories configured at the time Python is installed.
+**3**. An installation-dependent list of directories configured at the time Python is installed.
 
 Additionally, we can put the module file in any of the directory and then modify `sys.path` at run-time so that it contains that directory.
 
