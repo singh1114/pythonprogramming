@@ -4,6 +4,7 @@ title: "How does the import module work in Python "
 date: 2020-10-31T22:44:55.921Z
 updated_date: 2020-10-31T22:44:55.951Z
 published: true
+image: https://i.ibb.co/rGykBDh/carbon-4-1.png
 tags:
   - python
   - beginners
