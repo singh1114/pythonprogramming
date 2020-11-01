@@ -10,25 +10,25 @@ layout: default
         <div class="linked_post_div">
             <a href="{{ site.baseurl }}{{ post.url }}">
                 <h4><strong>{{post.title}}</strong></h4>
-                <div class="post-categories">
-                    {% for category in post.categories %}
-                        <a href="{{site.baseurl}}/categories/#{{category|slugize}}"
-                        style="background: #4CAF50; color: #fff; text-decoration: none; padding: 2px 13px; border-radius: 50px; font-size: 14.5px;"> #{{category}}</a>
-                    {% endfor %}
-                </div>
-                {% if post.image %}
-                    <noscript><img src="{{post.image}}" /></noscript>
-                    <!-- If javascript is present. -->
-                    <img data-src="{{post.image}}" class="blur-up lazyload" style="max-height: 11em;" />
-                    {% if post.description %}
-                        <p>{{ post.description | strip_html | truncatewords: 60 }}</p>
-                    {% else %}
-                        <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
-                    {% endif %}
+            </a>
+            <div class="post-categories">
+                {% for category in post.categories %}
+                    <a href="{{site.baseurl}}/categories/#{{category|slugize}}"
+                    style="background: #4CAF50; color: #fff; text-decoration: none; padding: 2px 13px; border-radius: 50px; font-size: 14.5px;"> #{{category}}</a>
+                {% endfor %}
+            </div>
+            {% if post.image %}
+                <noscript><img src="{{post.image}}" /></noscript>
+                <!-- If javascript is present. -->
+                <img data-src="{{post.image}}" class="blur-up lazyload" style="max-height: 11em;" />
+                {% if post.description %}
+                    <p>{{ post.description | strip_html | truncatewords: 60 }}</p>
                 {% else %}
                     <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
                 {% endif %}
-            </a>
+            {% else %}
+                <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+            {% endif %}
         </div>
         <br>
     {% endif %}
