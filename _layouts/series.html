@@ -10,10 +10,15 @@ layout: default
             {% endif %}
             {% for post in site.posts reversed %}
                 {% if post.series_unique_code == page.series_unique_code %}
-                    <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
+                    <div class="linked_post_div">
                         <a href="{{ site.baseurl }}{{ post.url }}" class="container">
                             <h4><strong>{{post.title}}</strong></h4>
-                            <p><strong>{{ post.subtitle }}</strong></p>
+                            <div class="post-categories">
+                                {% for category in page.categories %}
+                                  <a href="{{site.baseurl}}/categories/#{{category|slugize}}"
+                                  style="background: #4CAF50; color: #fff; text-decoration: none; padding: 2px 13px; border-radius: 50px; font-size: 14.5px;"> {{category}}</a>
+                                {% endfor %}
+                            </div>
                             {% if post.image %}
                                 <noscript><img src="{{post.image}}" /></noscript>
                                 <!-- If javascript is present. -->
