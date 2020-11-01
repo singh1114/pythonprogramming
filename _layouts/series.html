@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <h2>{{ page.title }}</h2>
+            {% if page.description %}
+                <span class="subheading">{{ page.description }}</span>
+            {% endif %}
+            {% for post in site.posts reversed %}
+                {% if post.series_unique_code == page.series_unique_code %}
+                    <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="container">
+                            <h4><strong>{{post.title}}</strong></h4>
+                            <p><strong>{{ post.subtitle }}</strong></p>
+                            {% if post.image %}
+                                <noscript><img src="{{post.image}}" /></noscript>
+                                <!-- If javascript is present. -->
+                                <img data-src="{{post.image}}" class="blur-up lazyload" style="max-height: 11em;" />
+                                {% if post.description %}
+                                    <p>{{ post.description | strip_html | truncatewords: 60 }}</p>
+                                {% else %}
+                                    <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                                {% endif %}
+                            {% else %}
+                                <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                            {% endif %}
+                        </a>
+                    </div>
+                {% endif %}
+                <br>
+            {% endfor %}
+        </div>
+    </div>
+</div>

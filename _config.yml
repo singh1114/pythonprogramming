@@ -64,5 +64,6 @@ include:
 - _categories
 - _authors
 - _thoughts
+- _series
 series_array: []
 telegram_bot: pythonprogrammingorgbot
