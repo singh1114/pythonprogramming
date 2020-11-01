@@ -16,7 +16,7 @@ layout: default
                             <div class="post-categories">
                                 {% for category in post.categories %}
                                   <a href="{{site.baseurl}}/categories/#{{category|slugize}}"
-                                  style="background: #4CAF50; color: #fff; text-decoration: none; padding: 2px 13px; border-radius: 50px; font-size: 14.5px;"> {{category}}</a>
+                                  style="background: #4CAF50; color: #fff; text-decoration: none; padding: 2px 13px; border-radius: 50px; font-size: 14.5px;"> #{{category}}</a>
                                 {% endfor %}
                             </div>
                             {% if post.image %}
@@ -33,6 +33,7 @@ layout: default
                             {% endif %}
                         </a>
                     </div>
+                    <br>
                 {% endif %}
             {% endfor %}
         </div>
