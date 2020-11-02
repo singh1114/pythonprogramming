@@ -4,7 +4,7 @@ title: Face Recognition in Python and OpenCV
 date: 2020-10-31T17:23:09.566Z
 updated_date: 2020-10-31T17:23:09.663Z
 description: Face Recognition in Python using Open CV and other packages
-published: true
+published: false
 image: https://i.ibb.co/fQ2fPKj/carbon-1.png
 tags:
   - python
