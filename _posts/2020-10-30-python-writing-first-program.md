@@ -11,7 +11,7 @@ tags:
 categories:
   - python
   - beginners
-author_name: Amit Mittal
+author_name: Amit Mathur
 author_username: amit
 show_ads: false
 show_telegram_signup: false
@@ -57,14 +57,14 @@ So `print` is a function that displays the desired result for you. It takes the 
 
 Python function is a piece of code that performs some action or causes some effect. Generally, a Python function performs two activities:
 
-a) Cause some effect – like print function  
+a) Cause some effect – like print function
 b) Evaluates some value – like sum, sin, cos which we will see later
 
 There are functions which can perform both the above activities also. There are three types of Python functions:
 
-a) Python build-in functions: They come with Python itself and you can use them directly like `print`.  
+a) Python build-in functions: They come with Python itself and you can use them directly like `print`.
 
-b) Python modules – They also come with Python but to use them, you need to import them from their parent space like ‘sin’, ‘cos’ etc.  
+b) Python modules – They also come with Python but to use them, you need to import them from their parent space like ‘sin’, ‘cos’ etc.
 
 c) User-Defined Functions – Functions which a user can code themselves like finding the speed of a vehicle if we know the distance travelled in time.
 
@@ -116,17 +116,17 @@ print("I am writing Python program","Python is easy", sep="#")
 
 This will separate the strings by `#`.
 
-## Ending the 
+## Ending the
 
 Use of keyword ‘end’ – As we have seen, each print statement prints the output from next line. What if we want to change that behavior? For that we have to use a keyword ‘end’ like below:
 
 ```python
-print("I have written Python programs", end="!!!!")  
+print("I have written Python programs", end="!!!!")
 print("Python is very interesting")
 ```
 
 In the output, we will see both the print statement output coming in same as separated by `!!!!`.
- 
+
 By default, each print starts from next line which means that the first print statement ends with a new line character (`\n`), in our example, we instructed the first print statement to end with `!!!!` instead of a newline.
 
 Hence the second print statement started after!!!!. So technically here you changed the end of line character to !!!!
@@ -134,11 +134,11 @@ Hence the second print statement started after!!!!. So technically here you chan
 We can also use a combination of both `sep` and `end` in print statement like below:
 
 ```python
-print("Python", "learning", end="\*", sep="\_")  
+print("Python", "learning", end="\*", sep="\_")
 print("Love", "Python", sep="#")
 ```
 
-In this case, arguments of the first print will be separated by `\_`. Then first print will end with `\*`. Then the strings of second print will be separated by `#`.  
+In this case, arguments of the first print will be separated by `\_`. Then first print will end with `\*`. Then the strings of second print will be separated by `#`.
 
 Please note that `sep` and `end` should come only as the last arguments after all the strings arguments. `sep` and `end` can be put in any order among themselves.
 
