@@ -32,7 +32,7 @@ The only dependency we have for this is `colorama`. It is used to show text with
 
 We can simply install this using `pip`.
 
-```python
+```shell
 pip install colorama
 ```
 
