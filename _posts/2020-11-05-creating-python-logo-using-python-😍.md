@@ -64,7 +64,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"""
 
 ## Defining the data structure for the shape
 
-We will define the data structure with color change information in a dictionary. This will contain the information whenever there is a change in the color for a given row number.
+We will define the data structure with color change information in a dictionary. This will contain the information about the colors that we are going to use to print the character color logo.
 
 ```python
 final_dict = {
