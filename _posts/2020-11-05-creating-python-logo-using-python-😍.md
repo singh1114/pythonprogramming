@@ -26,7 +26,7 @@ Let's get started.
 
 ## Install dependencies
 
-The only dependency we need to do this is `colorama`. It is used to show text with different colors. For example, if you want to show something really important in the code, you can show it using red.
+The only dependency we have for this is `colorama`. It is used to show text with different colors. For example, if you want to show something really important in the code, you can show it using red.
 
 {% include lazyload.html image_src="https://i.ibb.co/HP8pqp9/Screenshot-2020-11-06-at-12-02-18-AM.png" image_alt="colorama red color" image_title="colorama red color" %}
 
