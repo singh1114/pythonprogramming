@@ -189,6 +189,6 @@ This is a pretty simple Python code that is used to color the characters. In thi
 
 In each row of characters for each column of characters, we are calling the `get_dict_color` function which either returns the new color if the color is changing according to the defined data structure or returns the last color, we were using.
 
-Run it, and we will get that we first showed you.
+Run the program. You will get a Python logo of your own.
 
 There might be a lot of implementations that we can use to print something like this, and we would like to hear about it in the comments below. 
