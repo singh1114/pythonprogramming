@@ -62,7 +62,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"""
 ```
 
-## Defining the data structure and define colors
+## Defining the data structure for the shape
 
 We will define the data structure with color change information in a dictionary. This will contain the information whenever there is a change in the color for a given row number.
 
