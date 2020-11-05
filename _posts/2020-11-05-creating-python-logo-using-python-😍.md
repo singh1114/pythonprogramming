@@ -38,7 +38,7 @@ pip install colorama
 
 ## Defining characters to color
 
-We have to define a good length of colors so that we can print the logo with as much space as we want.
+We have to define a good length of characters so that we can print the logo with as much space as we want.
 
 ```python
 fgh ="""ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
