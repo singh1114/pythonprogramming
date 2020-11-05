@@ -18,7 +18,7 @@ show_telegram_signup: false
 ---
 {% include lazyload.html image_src="https://i.ibb.co/Wc7JkHw/carbon-5-2.png" image_alt="Creating Python Logo using Python" image_title="Creating Python Logo using Python" %}
 
-Not really a Python Logo, we are going to create a Python logo using Python. Our output is going to look something like this.
+We are going to print the Python shaped logo using Python colors. Our output is going to look something like this.
 
 {% include lazyload.html image_src="https://i.ibb.co/f4LK5cp/Screenshot-2020-11-05-at-11-50-58-PM.png" image_alt="Python logo using characters" image_title="Python logo using characters" %}
 
