@@ -64,7 +64,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"""
 
 ## Defining the data structure for the shape
 
-We will define the data structure with color change information in a dictionary. This will contain the information about the colors that we are going to use to print the character color logo.
+We will define the data structure with color change information in a dictionary. This will contain information about the colors that we are going to use to print the character color logo.
 
 ```python
 final_dict = {
@@ -191,4 +191,4 @@ In each row of characters for each column of characters, we are calling the `get
 
 Run it, and we will get that we first showed you.
 
-There might be a lot of implementations and we would like to hear how you implemented it. 
+There might be a lot of implementations that we can use to print something like this, and we would like to hear about it in the comments below. 
