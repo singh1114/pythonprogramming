@@ -192,3 +192,5 @@ In each row of characters for each column of characters, we are calling the `get
 Run the program. You will get a Python logo of your own.
 
 There might be a lot of implementations that we can use to print something like this, and we would like to hear about it in the comments below. 
+
+Please subscribe to the newsletter, if you want to read similar stories every week. Also, we would love to hear your Python story.
