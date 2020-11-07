@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-Wide range of Python tutorials by our great authors.
+![](https://mcusercontent.com/85324cdc1b9bed72902e27fa0/images/8e74d3ba-8792-452f-b656-67ca8f00cb9c.png)
 
 ---
 
