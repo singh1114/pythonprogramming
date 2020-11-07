@@ -80,7 +80,7 @@ For those who don't understand much about Django, this part of the code says tha
 
 * tweet - The tweet itself
 * tweet_at - When does someone want to tweet.
-* created_at - A datetime thing to know when you created the data entry( very helpful for debugging stuff).
+* created_at - A datetime thing to know when you created the data entry( very helpful for debugging purposes).
 * send - Whether the tweet was sent or not.
 
 ## Scheduling
