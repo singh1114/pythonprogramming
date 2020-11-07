@@ -130,7 +130,9 @@ def tweet_scheduler():
         raise NotImplementedError('Set environment variables correctly')
 ```
 
-The explanation of how it works can be a separate post of itself but with this post, my objective is to allow everyone to try it out and see how it works.
+The `tweet_scheduler` is the entry function. First, we are checking whether the environment variables are set or not.
+
+After that, we are calling the `send_tweet` function where we get all the database entries for which `sent_tweet` time has already passed and use the `tweepy` library to send the tweet. Finally, we update the database to save the updated value.
 
 ## How to install and set it up for yourself
 
@@ -150,7 +152,7 @@ git clone git@github.com:singh1114/schedule-tweet.git
 cd schedule-tweet
 ```
 
-Turn on the virtualenv and install the requirements
+Turn on the `virtualenv` and install the requirements. Please read a little about virtual environment if you don't know about it.
 
 ```shell
 pip install -r requirements.txt
@@ -205,3 +207,7 @@ That's it for today's post. If you find an issue while trying it out, do let me 
 ## Possible improvements
 
 The current system doesn't allow us to send images in the tweets, we can accommodate for that as well. I don't think that will be hard. Feel free to raise Pull Requests to the repo if you find any issue.
+
+## Usages
+
+We have used the software to send 50 tweets as of now and gained almost 18 followers to our [profile](https://twitter.com/pythonprogramm9) organically.
