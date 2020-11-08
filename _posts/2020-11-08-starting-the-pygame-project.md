@@ -18,6 +18,7 @@ series_unique_code: pygame_tutorial_series
 series_part: "3"
 series_page_title: Starting the project
 series_title: Building a game using pygame
+previous_slug: final-game-using-pygame
 skip_from_listing: true
 ---
 Let's get the project started.
