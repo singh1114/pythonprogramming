@@ -3,6 +3,7 @@ layout: post
 title: Starting the pygame project
 date: 2020-11-08T13:01:50.515Z
 updated_date: 2020-11-08T13:01:50.534Z
+description: Starting the pygame project with virtual env and install pygame
 published: true
 tags:
   - python
@@ -64,3 +65,18 @@ pip install pygame
 > If you are using PyCharm you can add set your virtual environment as the interpreter using the Pycharm settings/preferences.
 
 With everything setup, we are ready to start with the tutorial and building our first game using PyGame.
+
+## Checking installation
+
+We can check if the installation was successful by creating a file called `main.py` and adding the following code.
+
+```python
+import pygame
+```
+
+Try running it using `python main.py`. If you see a similar response on the console then it is working fine.
+
+```shell
+pygame 2.0.0 (SDL 2.0.12, python 3.8.6)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+```
