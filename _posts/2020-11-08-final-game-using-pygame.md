@@ -17,7 +17,7 @@ show_telegram_signup: false
 series_unique_code: pygame_tutorial_series
 series_part: "2"
 series_page_title: End Goal
-series_title: What are we building
+series_title: Building a game using pygame
 skip_from_listing: false
 ---
 This post will mostly talk about the way this is going to look in the end.
