@@ -30,6 +30,24 @@ You will need the basic knowledge of Python to get started with this series. If 
 
 >>>>>> Link to beginner series.
 
+## Hands-on
+
+This tutorial is going to take the hands-on approach so that you can follow this tutorial.
+
+So, I would recommend you to not just only read the tutorial but also do it together. That way you will learn more. 
+
+## Why pygame?
+
+### Very easy to start with
+
+Since with `pygame` you use Python as your programming language, it is fairly easy to start with. With pygame, you don't have to create a ton of different files just to create a simple game.
+
+You can write the whole game in a single file.
+
+### Sharing your game
+
+You can share your game just by creating an executable file and sharing it with the people. They can just start playing it by installing it. 
+
 ## Installing requirements
 
 We can directly install `pygame` using pip.
