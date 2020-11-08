@@ -9,7 +9,7 @@ layout: default
     {% if post.series_unique_code == page.series_unique_code %}
         <div class="linked_post_div">
             <a href="{{ site.baseurl }}{{ post.url }}">
-                <h4><strong>{{post.title}}</strong></h4>
+                <h3><strong>{{post.title}}</strong></h3>
             </a>
             <div class="post-categories">
                 {% for category in post.categories %}
