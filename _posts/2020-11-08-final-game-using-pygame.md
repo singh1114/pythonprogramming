@@ -18,6 +18,8 @@ series_unique_code: pygame_tutorial_series
 series_part: "2"
 series_page_title: End Goal
 series_title: Building a game using pygame
+previous_slug: introduction-to-pygame
+next_slug: starting-the-pygame-project
 skip_from_listing: true
 ---
 This post will mostly talk about the way this is going to look in the end.
