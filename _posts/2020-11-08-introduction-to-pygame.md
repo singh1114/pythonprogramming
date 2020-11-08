@@ -18,6 +18,7 @@ series_unique_code: pygame_tutorial_series
 series_part: "1"
 series_page_title: Introduction
 series_title: Building a game using pygame
+next_slug: final-game-using-pygame
 skip_from_listing: true
 ---
 Welcome to the beginning of the first part of this `PyGame` tutorial where we are going to build a game using Python's `pygame` module from scratch.
