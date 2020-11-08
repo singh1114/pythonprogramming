@@ -20,6 +20,7 @@ series_part: "3"
 series_page_title: Starting the project
 series_title: Building a game using pygame
 previous_slug: final-game-using-pygame
+next_slug: initializing-the-pygame-window
 skip_from_listing: true
 ---
 Let's get the project started.
