@@ -39,3 +39,7 @@ pip install pygame
 ```
 
 Hope you are as excited to get started as much as we are.
+
+## Some important Links
+
+* [Pygame website](https://pygame.org)
