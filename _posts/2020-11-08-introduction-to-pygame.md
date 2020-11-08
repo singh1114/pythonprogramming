@@ -4,6 +4,12 @@ title: Introduction to PyGame
 date: 2020-11-08T07:54:50.327Z
 updated_date: 2020-11-08T07:54:50.354Z
 published: true
+tags:
+  - python
+  - pygame
+categories:
+  - python
+  - pygame
 author_name: Ranvir Singh
 author_username: ranvir_xyz
 show_ads: false
