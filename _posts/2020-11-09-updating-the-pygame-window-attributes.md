@@ -19,7 +19,7 @@ series_unique_code: pygame_tutorial_series
 series_part: "4"
 series_page_title: Updating the pygame window
 series_title: Building a game using pygame
-previous_slug: ""
+previous_slug: initializing-the-pygame-window
 skip_from_listing: true
 ---
 Updating the `pygame` window attributes
