@@ -22,4 +22,6 @@ series_title: Building a game using pygame
 previous_slug: initializing-the-pygame-window
 skip_from_listing: true
 ---
-Updating the `pygame` window attributes
+There are a few attributes in case of `pygame` window that we can update. Let's dive a little into so that we know about all the options that we have.
+
+ 
