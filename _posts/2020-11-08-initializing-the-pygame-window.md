@@ -20,6 +20,7 @@ series_part: "4"
 series_page_title: Initializing the game window
 series_title: Building a game using pygame
 previous_slug: starting-the-pygame-project
+next_slug: updating-the-pygame-window-attributes
 skip_from_listing: true
 ---
 Let's start by initializing the game window so that we can start with the game dev.
