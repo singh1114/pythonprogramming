@@ -24,4 +24,18 @@ skip_from_listing: true
 ---
 There are a few attributes in case of `pygame` window that we can update. Let's dive a little into so that we know about all the options that we have.
 
- 
+## Update the title
+
+The first up in the list is the title of the `pygame` window. We are going to replace that with the name of our game, **PPO snake**.
+
+```python
+pygame.display.set_caption("PPO snake")
+```
+
+## Updating the icon
+
+We can add an image as the icon of the game. I am going to add the image to a new `assets` directory.
+
+```shell
+mkdir assets
+```  
