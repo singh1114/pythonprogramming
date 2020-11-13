@@ -29,7 +29,7 @@ This series is for the people who are just getting started with `PyGame` and wan
 
 You will need the basic knowledge of Python to get started with this series. If you are just starting out we will recommend our Python beginner series.
 
->>>>>> Link to beginner series.
+{% include linked_post.html url="python-getting-started" %}
 
 ## Hands-on
 
