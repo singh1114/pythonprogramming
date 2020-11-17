@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Global constants for our game using pygame
+title: Global constants for snake game
 date: 2020-11-17T19:23:44.718Z
 updated_date: 2020-11-17T19:23:44.771Z
 description: ""
