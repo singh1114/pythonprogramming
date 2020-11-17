@@ -20,6 +20,7 @@ series_part: "4"
 series_page_title: Updating the pygame window
 series_title: Building a game using pygame
 previous_slug: initializing-the-pygame-window
+next_slug: some-global-constants-for-our-game-using-pygame
 skip_from_listing: true
 ---
 There are a few attributes in case of `pygame` window that we can update. Let's dive a little into so that we know about all the options that we have.
