@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some global constants for our game using pygame
+title: Global constants for our game using pygame
 date: 2020-11-17T19:23:44.718Z
 updated_date: 2020-11-17T19:23:44.771Z
 description: ""
@@ -17,7 +17,7 @@ show_ads: false
 show_telegram_signup: false
 series_unique_code: pygame_tutorial_series
 series_part: "5"
-series_page_title: Some global constants for our game using pygame
+series_page_title: Global constants for snake game
 series_title: Building a game using pygame
 previous_slug: updating-the-pygame-window-attributes
 skip_from_listing: true
