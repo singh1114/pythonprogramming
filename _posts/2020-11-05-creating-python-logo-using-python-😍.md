@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Creating Python Logo using Python 😍
-date: 2020-11-05T18:26:25.500Z
-updated_date: 2020-11-05T18:26:25.526Z
+date: 2021-04-23T20:46:43.799Z
+updated_date: 2021-04-23T20:46:45.214Z
 published: true
 image: https://i.ibb.co/Rpxgw9F/carbon-5-1.png
 tags:
