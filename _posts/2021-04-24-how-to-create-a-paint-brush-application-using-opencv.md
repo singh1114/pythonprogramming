@@ -33,7 +33,7 @@ In this article, we are going to make a paint application that features the brus
 
 We will also see how current trackbar values can be displayed on the window, so we have a general idea of the color variation.
 
-*Note: We are going to make this application on macOS and somehow the in-built create trackbar method of OpenCV does not show selected trackbar values, hence the need to display these values on the image window itself.*
+{% include note.html description="We are going to make this application on macOS and somehow the in-built create trackbar method of OpenCV does not show selected trackbar values, hence the need to display these values on the image window itself." %}
 
 * If you do not have OpenCV installed, I suggest you visit [here](https://blog.codekaro.info/lets-draw-opencv-logo-using-opencv) and check **Prerequisites** steps on the process of installation.*
 
@@ -130,7 +130,7 @@ The same kind of thing is going on with the other 2 functions, just for differen
 
 In simple terms, take the below scenario:
 
-* Let's say we have a list - `l = [0, 0, 0]`. Here all the values were `-1` initially representing the start stage of the list. It is a special kind of list where we can only change its values only if they are `-1` first and nothing else. 
+* Let's say we have a list - `l = [0, 0, 0]`. Here all the values were `-1` initially representing the start stage of the list. It is a special kind of list where we can only change its values only if they are `-1` first and nothing else.
 
 * What we are going to do now is that, replace the first index (`R` color value let's say) with a new value.
 
