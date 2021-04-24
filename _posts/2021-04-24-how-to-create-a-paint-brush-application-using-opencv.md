@@ -20,6 +20,7 @@ author_name: Siddharth Chandra
 author_username: siddharth
 show_ads: false
 show_telegram_signup: false
+skip_toc: false
 ---
 {% include lazyload.html image_src="https://i.ibb.co/Ltfb1tY/carbon.png" image_alt="Create A Paint Brush Application Using OpenCV" image_title="Create A Paint Brush Application Using OpenCV" %}
 
@@ -28,10 +29,14 @@ Creating a paintbrush application is one of the most fun activities while learni
 In this article, we are going to make a paint application that features the brush functionality with customizations like:
 
 * Changing brush size using a trackbar.
+
 * Changing paint color using a trackbar.
+
 * Viewing the selected color on the window.
 
 We will also see how current trackbar values can be displayed on the window, so we have a general idea of the color variation.
+
+{% include note.html description="We" %}
 
 If you do not have OpenCV installed, I suggest you visit [here](https://blog.codekaro.info/lets-draw-opencv-logo-using-opencv) and check **Prerequisites** steps on the process of installation.
 
@@ -59,8 +64,11 @@ cv2.rectangle(img, color_win_position[0], color_win_position[1], (0,0,0), -1)
 ```
 
 * First 2 lines import necessary libraries. Here, we are going to import `cv2` and `numpy` with an alias `np`.
+
 * Next 3 lines define some constants that we are going to use later. `draw` says if the mouse is drawing on image window, `window_name` describes the name of the application window that is `Paint Brush Application` and `bgr_track` is a dictionary that we will use to keep track of previous `BGR` values (you will know later why we are doing this).
+
 * Next 2 lines create an area for our paint application and set a name to the window. `img` contains a numpy array of 3 dimensions where each value is zero, meaning it will be a black colored area. `cv2.namedWindow` attaches a name to the image we just created, we can later use this window name to place all other things like trackbar.
+
 * The last line of this code snippet creates a rectangle window which we will be using for viewing our color that we are choosing from the trackbar.
 
 Now, add the below code:
@@ -78,8 +86,11 @@ img = cv2.putText(img, "0", (190, 30), font, 0.5, (255,255,255), 1)
 ```
 
 * Now, we put text on the image window that will work as the counter for values of the BGR trackbar. Since on macOS, the track bar is not showing selected values, so we need this functionality. Also, take it as a side activity that we can do.
+
 * We put text using the `cv2.putText` method of OpenCV and set a font as well. We can set any font we want, here we are using Hershey simplex font.
+
 * We are placing text like `R: ` and `0` separately because we need to change only number values and not constants like `R: `.
+
 * We can select any random position for these counters on the image and check which best suits our needs.
 
 So far, we have all the variables that we need, now let's move onto creating some interesting functions!
