@@ -35,7 +35,7 @@ We will also see how current trackbar values can be displayed on the window, so 
 
 {% include note.html description="We are going to make this application on macOS and somehow the in-built create trackbar method of OpenCV does not show selected trackbar values, hence the need to display these values on the image window itself." %}
 
-* If you do not have OpenCV installed, I suggest you visit [here](https://blog.codekaro.info/lets-draw-opencv-logo-using-opencv) and check **Prerequisites** steps on the process of installation.*
+If you do not have OpenCV installed, I suggest you visit [here](https://blog.codekaro.info/lets-draw-opencv-logo-using-opencv) and check **Prerequisites** steps on the process of installation.
 
 Without any further ado, let's start making our first paintbrush application.
 
