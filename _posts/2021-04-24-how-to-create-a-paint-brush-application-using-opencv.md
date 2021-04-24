@@ -42,12 +42,11 @@ If you do not have OpenCV installed, I suggest you visit [here](https://blog.cod
 
 Without any further ado, let's start making our first paintbrush application.
 
-### Imports and Variables
+## Imports everything we need
 
 Create a python file, name it whatever you like. Add below code in it (make sure you have OpenCV installed):
 
 ```python
-# ./paintApplication.py
 
 import cv2
 import numpy as np
@@ -95,7 +94,7 @@ img = cv2.putText(img, "0", (190, 30), font, 0.5, (255,255,255), 1)
 
 So far, we have all the variables that we need, now let's move onto creating some interesting functions!
 
-### Functions - All We Need
+## Functions - All We Need
 
 Add below python code snippet to the same file where we left above:
 
@@ -184,7 +183,7 @@ def draw_circle(event, x, y, flags, param):
 
 Now, let's put trackbar and mouse event callback. Also, we will create a loop to continuously display the changes to the image window.
 
-### Trackbar, Mouse Event Call and Main Loop
+## Trackbar, Mouse Event Call and Main Loop
 
 Add the following code to the same file:
 
@@ -233,27 +232,27 @@ For complete script, please visit [here](https://github.com/siddharth2016/Opencv
 
 Now, let's look at the demo.
 
-### Conclusion Demo
+## Conclusion Demo
 
-#### Displaying colour trackbar values.
+### Displaying colour trackbar values.
 
 ![display_color_value.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1618918273706/tzJAGC7px.gif)
 
-#### Displaying colour trackbar colours.
+### Displaying colour trackbar colours.
 
 ![color_trackbar.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1618918287732/a_DSuP5dQ.gif)
 
-#### Changing brush size.
+### Changing brush size.
 
 ![brush_size.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1618918301839/aefBGvmmj.gif)
 
-#### Hello World, CodeKaro!
+### Hello World, CodeKaro!
 
 ![miscellaneous.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1618918315829/xoXv0xxCx.gif)
 
 I know, my paint skills are very poor!😰
 
-### What Next?
+## What Next?
 
 Well, that's it from me. If you want to explore further, the following activities can be done to add more feature to the paint application:
 
