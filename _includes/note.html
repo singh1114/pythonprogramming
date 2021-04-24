@@ -1,7 +1,9 @@
+{% if include.description %}
 <div id="note">
     {% if include.title %} <strong>{{ include.title }}</strong> { % endif %}
     {% if include.description %} <p>{{ include.description }}</p> { % endif %}
 </div>
+{% endif %}
 <style type="text/css">
     div#note {
         margin: 2em 0 !important;
