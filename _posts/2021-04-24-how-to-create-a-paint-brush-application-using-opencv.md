@@ -234,7 +234,7 @@ For complete script, please visit [here](https://github.com/siddharth2016/Opencv
 
 Now, let's look at the demo.
 
-## Conclusion
+## Here is the Demo
 
 ### Displaying colour trackbar values.
 
