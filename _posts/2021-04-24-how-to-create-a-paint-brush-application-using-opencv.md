@@ -42,7 +42,7 @@ If you do not have OpenCV installed, I suggest you visit [here](https://blog.cod
 
 Without any further ado, let's start making our first paintbrush application.
 
-## Imports everything we need
+## Import everything we need
 
 Create a python file, name it whatever you like. Add below code in it (make sure you have OpenCV installed):
 
