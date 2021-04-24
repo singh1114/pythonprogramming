@@ -202,7 +202,7 @@ cv2.setMouseCallback(window_name, draw_circle)
 
 * `cv2.setMouseCallback` takes 2 parameters to set a mouse callback event, first one is the image window `window_name` on which this callback event should be tracked and the second is the callback function to call when a mouse event occurs.
 
-*Notice here, that we don't have separate callback methods for MOUSE_UP or MOUSE_DOWN, but only a single one that captures all events with a passed parameter to callback function `event` and later we can use conditionals to filter them out.*
+{% include note.html title="Single callback for up and down keys" description="Notice here, that we don't have separate callback methods for MOUSE_UP or MOUSE_DOWN, but only a single one that captures all events with a passed parameter to callback function event and later we can use conditions to filter them out." %}
 
 Now, add the following code to the same file for our main loop:
 
