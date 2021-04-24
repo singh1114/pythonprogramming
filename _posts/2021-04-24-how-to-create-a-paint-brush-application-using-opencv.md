@@ -24,7 +24,9 @@ skip_toc: false
 ---
 {% include lazyload.html image_src="https://i.ibb.co/Ltfb1tY/carbon.png" image_alt="Create A Paint Brush Application Using OpenCV" image_title="Create A Paint Brush Application Using OpenCV" %}
 
-Creating a paintbrush application is one of the most fun activities while learning computer vision and image processing with a little bit of GUI concepts. Using OpenCV for such an application saves us a lot of time by not needing to know the basics of GUI programming, so we can only be left with image processing tasks at hand.
+Creating a paintbrush application is one of the most fun activities while learning computer vision and image processing with a little bit of GUI concepts.
+
+Using OpenCV for such an application saves us a lot of time by not needing to know the basics of GUI programming, so we can only be left with image processing tasks at hand.
 
 In this article, we are going to make a paint application that features the brush functionality with customizations like:
 
