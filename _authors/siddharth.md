@@ -11,7 +11,9 @@ Namaste 🙏🏽 I am an Engineer and a Full Stack Developer hooked on Python & 
 
 #### I am available for
 
-A Cup of Tea, Mentoring, Freelance, Working on Projects using Python3, Django, ReactJS and Machine Learning.
+A Cup of Tea, Mentoring, Freelance, Working on Projects using Python, Django and Scala.
+
+[Hire Him](https://www.hiretheauthor.com/siddharth)
 
 [Contact Him](mailto:siddharthchandragzb@gmail.com)
 
