@@ -15,7 +15,7 @@ categories:
   - pypi
 author_name: Fredy Somy
 author_username: fredysomy
-show_ads: true
+show_ads: false
 show_telegram_signup: false
 ---
 Are you tired of manually building and deploying Python packages to `PyPi`? In this post, we are going to talk about the solution in detail. By the end of the post, you will not have to build your package again.
