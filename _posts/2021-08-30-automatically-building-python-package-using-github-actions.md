@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automatically Building Python Package using Github actions
+title: Automatically Build Python Package using Github actions
 date: 2021-08-30T12:51:26.398Z
 updated_date: 2021-08-30T12:51:26.442Z
 description: How to automatically build and deploy your pypi package whenever
