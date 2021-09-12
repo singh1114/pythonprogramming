@@ -4,15 +4,25 @@ title: Game Development using Pyglet - PongPong - Part III
 date: 2021-09-12T08:44:26.565Z
 updated_date: 2021-09-12T08:44:26.617Z
 published: true
+tags:
+  - pyglet
+  - python
+  - gaming
+categories:
+  - pyglet
+  - python
+  - gaming
+author_name: Siddharth Chandra
+author_username: siddharth
 show_ads: false
 show_telegram_signup: false
+series_unique_code: pyglet-gaming
+series_part: "3"
+series_page_title: Python Pyglet gaming Part 3
+series_title: Building a game using pyglet python
 previous_slug: game-development-using-pyglet-pongpong-part-ii
 ---
 In this 3 part series, we will be making a game, using python game programming library *[pyglet](https://pypi.org/project/pyglet/)*.
-
-*Check out 1st Part [here](https://blog.codekaro.info/making-pongpong-game-development-using-pyglet-part-1).*
-
-*Check out 2nd Part [here](https://blog.codekaro.info/making-pongpong-game-development-using-pyglet-part-2).*
 
 ---
 
