@@ -24,6 +24,7 @@ series_part: "2"
 series_page_title: Python Pyglet gaming Part 2
 series_title: Building a game using pyglet python
 previous_slug: making-pongpong-game-development-using-pyglet-part-1
+next_slug: game-development-using-pyglet-pongpong-part-iii
 ---
 ## What We Learned So Far?
 
