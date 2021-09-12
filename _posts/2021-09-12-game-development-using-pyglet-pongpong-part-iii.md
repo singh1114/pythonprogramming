@@ -3,6 +3,8 @@ layout: post
 title: Game Development using Pyglet - PongPong - Part III
 date: 2021-09-12T08:44:26.565Z
 updated_date: 2021-09-12T08:44:26.617Z
+description: Pyglet final tutorial, In this post we complete the game
+  development and by the end of it, you can play it as well.
 published: true
 tags:
   - pyglet
