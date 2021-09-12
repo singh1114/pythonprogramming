@@ -4,7 +4,7 @@ title: Game Development using Pyglet - PongPong
 date: 2021-09-12T08:04:33.066Z
 updated_date: 2021-09-12T08:04:33.101Z
 description: This is the first part of the pyglet gaming series where we will
-  create a pongpong game using pyglet. We are workign on this to learn the
+  create a pongpong game using pyglet. We are working on this to learn the
   basics of game development in general.
 published: true
 tags:
