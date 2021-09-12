@@ -137,7 +137,7 @@ Secondly, why are we using a for loop to push event handlers when we have only 1
 
 Well, so much we have covered, now let's move on to creating load functions that are used to load the objects.
 
-### Load Functions
+## Load Functions
 
 The load functions are the ones that we used in `PongPongWindow` class to help load the objects and store those objects in main batch.
 
