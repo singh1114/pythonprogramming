@@ -17,7 +17,7 @@ author_name: Siddharth Chandra
 author_username: siddharth
 show_ads: false
 show_telegram_signup: false
-series_unique_code: pyglet-2
+series_unique_code: pyglet-gaming
 series_part: "2"
 series_page_title: Python Pyglet gaming Part 2
 series_title: Building a game using pyglet python
