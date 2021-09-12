@@ -3,7 +3,9 @@ layout: post
 title: Game Development using Pyglet - PongPong - Part II
 date: 2021-09-12T08:25:15.398Z
 updated_date: 2021-09-12T08:25:15.443Z
-description: ""
+description: In this part, we will explore on how to create a game window and
+  how to load our game objects (with no active gameplay, they will be still
+  waiting for the next part !).
 published: true
 tags:
   - pyglet
