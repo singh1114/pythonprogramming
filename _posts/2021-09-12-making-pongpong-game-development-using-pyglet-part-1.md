@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making PONGPONG - Game Development using Pyglet - Part 1
+title: Game Development using Pyglet - PongPong
 date: 2021-09-12T08:04:33.066Z
 updated_date: 2021-09-12T08:04:33.101Z
 description: This is the first part of the pyglet gaming series where we will
