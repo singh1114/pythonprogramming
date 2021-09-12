@@ -23,9 +23,7 @@ series_page_title: Python Pyglet gaming Part 2
 series_title: Building a game using pyglet python
 previous_slug: making-pongpong-game-development-using-pyglet-part-1
 ---
-In this 3 part series, we will be making a game, using python game programming library *[pyglet](https://pypi.org/project/pyglet/)*.
-
-*Check out 1st Part [here](https://blog.codekaro.info/making-pongpong-game-development-using-pyglet-part-1).*
+In this 3 part series, we will be making a game, using Python game programming library *[pyglet](https://pypi.org/project/pyglet/)*.
 
 ---
 
