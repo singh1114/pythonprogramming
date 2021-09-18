@@ -9,10 +9,10 @@ published: true
 image: https://i.ibb.co/2s7RcYy/carbon-8-1.png
 tags:
   - python
-  - webscrapping
+  - web-scraping
 categories:
   - python
-  - webscrapping
+  - web-scraping
 author_name: Joseph
 author_username: jsphwllng
 show_ads: false
