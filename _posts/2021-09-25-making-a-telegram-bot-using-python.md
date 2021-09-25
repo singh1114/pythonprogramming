@@ -36,10 +36,11 @@ All this will be done by using Python and Telegram Bot.
 
 All the snippets and projects related to this course will be found in [`projects`](https://github.com/guides-to/BUILDING-TELEGRAM-BOT-IN-PYTHON/blob/master/projects) directory.
 
-{% include note.html title="Furthur improvements" description="If you will be making any educational project regarding this course, I would like to encourage you to send a PR regarding the same, [here](https://github.com/guides-to/BUILDING-TELEGRAM-BOT-IN-PYTHON)" %}
+{% include note.html title="Furthur improvements" description="If you will be making any educational project regarding this course, I would like to encourage you to send a PR regarding the same to GitHub repo." %}
 
-## What are Bots
+## Some examples of telegram bots
 
+```
 - Simple telegram accounts operated by an application
 - Not actually designed for chatting
 - Can be used to simplify the task
@@ -54,10 +55,11 @@ All the snippets and projects related to this course will be found in [`projects
   - Emoticons
   - Commands
   - Inline requests
+```
 
-# Setting up Telegram Bot
+## Setting up Telegram Bot
 
-1. Open telegram and search for `BotFather`
+1. Open telegram app and search for `BotFather`
 2. Send `/start` command to start and associate the account with yours
 3. Send `/help` command to show the help
 4. Send `/newbot` command and follow the instruction
@@ -67,11 +69,11 @@ All the snippets and projects related to this course will be found in [`projects
 ## Understanding Other Bot Settings
 
 1. Send `/mybots` command to list your bot, select the desired bot
-2. Click on "**Bot Settings**" and you will see various options.
-3. Click on "[**Inline Mode**](https://core.telegram.org/bots/inline)". If you want the bot to accept inline messages beyond the commands.
+2. Click on **Bot Settings** and you will see various options.
+3. Click on [**Inline Mode**](https://core.telegram.org/bots/inline). If you want the bot to accept inline messages beyond the commands.
 4. Now you can click on **Back to Bot** button and click on **Edit Bot** button. Here you can customize your bots like _setting a bot description (what it does, what it is used for etc)_, _setting a bot about_ and _profile picture_.
 
-**NOTE:** While changing the profile picture, botfather expects you to upload a valid image file.
+{% include note.html description="While changing the profile picture, botfather expects you to upload a valid image file." %}
 
 ## Limitation of the Bot
 
