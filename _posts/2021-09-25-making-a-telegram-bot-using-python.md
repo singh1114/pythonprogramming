@@ -7,6 +7,7 @@ description: In this post, we will start creating a bot from scratch,
   discovering all possible settings to utilize all power of Bot API and creating
   a real-world application. All this by using Python and Telegram Bot.
 published: true
+image: https://i.ibb.co/b2F1vKx/carbon.png
 tags:
   - telegram
   - python
