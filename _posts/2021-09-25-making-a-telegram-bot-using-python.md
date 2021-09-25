@@ -22,6 +22,8 @@ show_ads: false
 show_telegram_signup: false
 skip_from_listing: false
 ---
+{% include lazyload.html image_src="https://i.ibb.co/b2F1vKx/carbon.png" image_alt="Telegram bot message sending using python" image_title="Telegram bot message sending using python" %}
+
 ## Prerequisite Knowledge and Requirements
 
 1. Basic python knowledge
