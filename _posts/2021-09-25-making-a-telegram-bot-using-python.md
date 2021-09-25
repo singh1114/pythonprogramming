@@ -19,7 +19,7 @@ author_name: Gurkirat Singh
 author_username: gurkirat
 show_ads: false
 show_telegram_signup: false
-skip_from_listing: true
+skip_from_listing: false
 ---
 ## Prerequisite Knowledge and Requirements
 
@@ -73,7 +73,7 @@ All the snippets and projects related to this course will be found in [`projects
 3. Click on [**Inline Mode**](https://core.telegram.org/bots/inline). If you want the bot to accept inline messages beyond the commands.
 4. Now you can click on **Back to Bot** button and click on **Edit Bot** button. Here you can customize your bots like _setting a bot description (what it does, what it is used for etc)_, _setting a bot about_ and _profile picture_.
 
-{% include note.html description="While changing the profile picture, botfather expects you to upload a valid image file." %}
+{% include note.html title="Note: Changing the profile picture of bot" description="While changing the profile picture, botfather expects you to upload a valid image file." %}
 
 ## Limitation of the Bot
 
@@ -81,16 +81,16 @@ All the snippets and projects related to this course will be found in [`projects
 2. The download limit is 20MB and upload limit is 50MB only
 3. Send messages limit is capped up to 30 msg per second. However, you can ask **@botsupport** to increase it.
 
-With this limitation, comes another power, bots can edit own messages and another's messages in the channel where the bot has admin rights
+With this limitation, comes another power, bots can edit their own messages and another's messages in the channel where the bot has admin rights.
 
 ## Getting messages from Telegram
 
 There are two ways to get user messages from telegram.
 
-**Polling** <br>
+**Polling**
 It's a way of asking Telegram every _X_ seconds whether any new message has come, and receive messages or asks later from telegram.
 
-**Web Hooks** <br>
+**Web Hooks**
 It's a way in which telegram sends all updates to the URL that has been configured to accept messages as soon as the user sends new messages.
 
 ## HTTP Interface of Bots API
@@ -160,15 +160,15 @@ In my case
 
 More methods on Get Updates: https://core.telegram.org/bots/api#getting-updates
 
-### Sending Messages to the User
+## Sending Messages to the User
 
 Method Name: [`sendMessage`](https://core.telegram.org/bots/api#sendmessage)
 
-In this, you will see me creating an echo bot that will be listening to all the messages sent by the user. I will then read the last message (`-1` index in the python list) and send the same message with the format "**You send me "{MESSAGE_TEXT}"**" message.
+In this section, we will create an echo bot that will be listening to all the messages sent by the user. We will then read the last message (`-1` index in the python list) and send the same message with the format **You send me {MESSAGE_TEXT}** message.
 
-The code is self-explanatory, and I have added some comments. However, if you couldn't get anything, leave a comment
+The code is self-explanatory, and I have added some comments. However, if you couldn't get anything, leave a comment.
 
-```py
+```python
 import urllib.request as request
 from urllib.error import HTTPError
 from http.client import HTTPResponse
@@ -309,13 +309,13 @@ if __name__ == "__main__":
 
 Make sure you add the API Key before running this code. After running the above code, you will get the output like below,
 
-<p style="text-align: center"><img src="https://i.ibb.co/WfymnkJ/image.png"></p>
+{% include lazyload.html image_src="https://i.ibb.co/WfymnkJ/image.png" image_alt="Telegram bot message sending using python" image_title="Telegram bot message sending using python" %}
 
-# Telegram Bot Libraries
+## Telegram Bot Libraries
 
 As you have seen, telegram provides a plethora of methods and APIs to handle the bot through any language, the open-source community has developed a python client using these API under the hood to increase developer's productivity.
 
-The one I will be using is [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot). While making this course, it has approx. _10k stars_, _38 open issues_ and last commit was made _2 days ago_
+The one I will be using is [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot). While making this course, it has approx _10k stars_.
 
 **Installing the Module**
 
@@ -327,8 +327,9 @@ pip install -U python-telegram-bot
 conda install -c conda-forge python-telegram-bot
 ```
 
-**Glance of the Usage** <br>
-In this I will be implementing `get_me` method, returning the bot details
+**Glance of the Usage**
+
+In this I will be implementing `get_me` method, returning the bot details.
 
 ```python
 from telegram import Bot
@@ -340,17 +341,17 @@ bot = Bot("API KEY")
 print(bot.get_me())
 ```
 
-How fascinating, the developers encapsulated all the backend, letting other developers write neat and clone. It not only provides neat code but also makes payment processing, handlers, and other more features even beyond sending HTTP Requests
+How fascinating, the developers encapsulated all the backend, letting other developers write neat and clone. It not only provides neat code but also makes payment processing, handlers, and other more features even beyond sending HTTP Requests.
 
-The complete documentation of python-telegram-bot: https://python-telegram-bot.readthedocs.io/en/stable/
+The complete documentation of python-telegram-bot: https://python-telegram-bot.readthedocs.io/en/stable/.
 
 ## Using Handlers on Commands
 
-I hope you would have created some commands, now let's make the bot handle those
+I hope you would have created some commands, now let's make the bot handle those.
 
 The library `python-telegram-bot` provides various [Handlers](https://python-telegram-bot.readthedocs.io/en/latest/telegram.html#handlers) from which I will be using [CommandHandler](https://python-telegram-bot.readthedocs.io/en/latest/telegram.ext.commandhandler.html#telegram-ext-commandhandler)
 
-```py
+```python
 from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.updater import Updater
 from telegram.ext.dispatcher import Dispatcher
@@ -398,9 +399,9 @@ updater.start_polling()
 
 In this I will show how to send an HTML formatted message to the user. I will be using [`telegram.ParseMode.HTML`](https://python-telegram-bot.readthedocs.io/en/stable/telegram.parsemode.html#telegram.ParseMode.HTML) parser for with [`send_message`](https://python-telegram-bot.readthedocs.io/en/stable/telegram.bot.html#telegram.Bot.send_message) method.
 
-Updating just one send_message line in above code
+Updating just one send_message line in the above code.
 
-```py
+```python
 from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.updater import Updater
 from telegram.ext.dispatcher import Dispatcher
@@ -615,7 +616,7 @@ updater.start_polling()
 
 Now suppose you created a bot that processes some files / information that could take some time. The user might think bot is broken and close it. The telegram provides very cool option **ChatActions** to send user messages immediately after his/her submission.
 
-I will be using [`telegram.Bot.send_chat_action`](https://python-telegram-bot.readthedocs.io/en/stable/telegram.bot.html#telegram.Bot.send_chat_action) along with [`telegram.ChatAction`](https://python-telegram-bot.readthedocs.io/en/stable/telegram.chataction.html)
+I will be using [`telegram.Bot.send_chat_action`](https://python-telegram-bot.readthedocs.io/en/stable/telegram.bot.html#telegram.Bot.send_chat_action) along with [`telegram.ChatAction`](https://python-telegram-bot.readthedocs.io/en/stable/telegram.chataction.html).
 
 ```py
 from telegram.bot import Bot
@@ -648,9 +649,9 @@ updater.start_polling()
 ## Deep Linking
 Telegram also supports deeplinking. It helps to create a refereal system to promote your bot or products via bot. 
 
-I will be using [`telegram.utils.helpers.create_deep_linked_url`]( https://python-telegram-bot.readthedocs.io/en/stable/telegram.utils.helpers.html#telegram.utils.helpers.create_deep_linked_url) to create a deep link
+I will be using [`telegram.utils.helpers.create_deep_linked_url`]( https://python-telegram-bot.readthedocs.io/en/stable/telegram.utils.helpers.html#telegram.utils.helpers.create_deep_linked_url) to create a deep link.
 
-```py
+```python
 from telegram.bot import Bot
 from telegram.utils.helpers import create_deep_linked_url
 from telegram.ext.commandhandler import CommandHandler
@@ -700,7 +701,7 @@ updater.start_polling()
 ```
 
 
-## Course Outro
+## Conclusion
 
 Thanks for reading this course, I would encourage you to explore this wonderful telegram client yourself. I would be happy to see your creations after pursuing this tutorial. In future, if I planned to add more snippets and projects, you know where to find it. Yes, [here](https://github.com/guides-to/BUILDING-TELEGRAM-BOT-IN-PYTHON/blob/master/projects)
 
