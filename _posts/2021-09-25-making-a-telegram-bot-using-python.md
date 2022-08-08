@@ -18,7 +18,7 @@ categories:
   - bot
 author_name: Gurkirat Singh
 author_username: gurkirat
-show_ads: false
+show_ads: true
 show_telegram_signup: false
 skip_from_listing: false
 ---
