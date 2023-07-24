@@ -20,13 +20,16 @@ show_ads: false
 show_telegram_signup: false
 skip_from_listing: false
 ---
+
+{% include lazyload.html image_src="https://i.ibb.co/F53sSjG/carbon.png" image_alt="Managing Personal Finances Made Easy with Splitwired: A Guide to Analyzing and Visualizing Expenses" image_title="Managing Personal Finances Made Easy with Splitwired: A Guide to Analyzing and Visualizing Expenses" %}
+
 About a year ago, I started following some blogs that talk about personal finance. I immediately became interested in the topic and, after reading a lot of stuff, I felt the need to start putting into practice what I had learned from all those articles. The first obstacle was that I didn't have any data on my expenses, no Excel sheet, no database... or maybe I did. Actually, yes, because practically my wife and I have been using this fantastic application called [**Splitwise**](https://secure.splitwise.com/) on a daily basis. It simplifies our lives a lot.
 
 Okay, I have the data, but (second obstacle) I can't read it dynamically. The only thing Splitwise offers me with a free account is the ability to download a CSV file containing all the expenses of a single group. It's not enough for me to create graphs, apply formulas, and so on.
 
 I immediately thought of using the Splitwise APIs, which are available for free: [https://dev.splitwise.com/](https://dev.splitwise.com/) ❤️ ... and so the [**Splitwired**](https://github.com/falcosan/Splitwired/tree/main) project began.
 
-#### Backend
+## Backend
 
 On the official [Splitwise API page](https://dev.splitwise.com/), there is a list of SDKs created by the community. While using these kits is not mandatory since Splitwise provides everything necessary, I chose to use the library by [@namaggarwa](https://github.com/namaggarwal). The SDK is written in [Python](https://www.python.org/), has good [documentation](https://splitwise.readthedocs.io/en/latest/), is continuously updated, and therefore, I consider it the best in the list.
 
@@ -81,7 +84,7 @@ def set_currency_conversion(
 
 Well, in the end, the `generate_expense` function returns a dictionary with three keys: _table_ for the table, _data_ for the data, and _chart_ for the chart (if `chart` is specified). If `csv` is set to True, the `generate_csv` function will be executed, generating a CSV file containing the expense data. The file can be downloaded from the download area at the top of the page.
 
-#### Frontend
+## Frontend
 
 From the frontend perspective, there isn't much to say, just a few notes.
 
