@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing Personal Finances Made Easy with Splitwired: A Guide to Analyzing and Visualizing Expenses
+title: "Managing Personal Finances Made Easy with Splitwired: A Guide to Analyzing and Visualizing Expenses"
 date: 2023-07-24T17:37:34.614Z
 updated_date: 2023-07-24T17:37:34.614Z
 description: Discover how to take control of your personal finances with Splitwired, a powerful project that utilizes Splitwise APIs to dynamically analyze and visualize your expenses. Learn how to leverage Python, Flask, and Gunicorn to build the backend and React with Plotly for the frontend. Find out how to generate graphs, create expense tables, and even convert currencies using Yahoo Finance data. Take charge of your finances like never before with Splitwired and make informed financial decisions effortlessly.
