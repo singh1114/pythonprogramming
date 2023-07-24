@@ -1,3 +1,25 @@
+---
+layout: post
+title: Managing Personal Finances Made Easy with Splitwired: A Guide to Analyzing and Visualizing Expenses
+date: 2023-07-24T17:37:34.614Z
+updated_date: 2023-07-24T17:37:34.614Z
+description: Discover how to take control of your personal finances with Splitwired, a powerful project that utilizes Splitwise APIs to dynamically analyze and visualize your expenses. Learn how to leverage Python, Flask, and Gunicorn to build the backend and React with Plotly for the frontend. Find out how to generate graphs, create expense tables, and even convert currencies using Yahoo Finance data. Take charge of your finances like never before with Splitwired and make informed financial decisions effortlessly.
+published: true
+image: https://i.ibb.co/F53sSjG/carbon.png
+tags:
+  - flask
+  - python
+  - bot
+categories:
+  - flask
+  - python
+  - bot
+author_name: Daniele Falchetti
+author_username: daniele
+show_ads: false
+show_telegram_signup: false
+skip_from_listing: false
+---
 About a year ago, I started following some blogs that talk about personal finance. I immediately became interested in the topic and, after reading a lot of stuff, I felt the need to start putting into practice what I had learned from all those articles. The first obstacle was that I didn't have any data on my expenses, no Excel sheet, no database... or maybe I did. Actually, yes, because practically my wife and I have been using this fantastic application called [**Splitwise**](https://secure.splitwise.com/) on a daily basis. It simplifies our lives a lot.
 
 Okay, I have the data, but (second obstacle) I can't read it dynamically. The only thing Splitwise offers me with a free account is the ability to download a CSV file containing all the expenses of a single group. It's not enough for me to create graphs, apply formulas, and so on.
